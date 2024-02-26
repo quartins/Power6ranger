@@ -1,9 +1,95 @@
-﻿  MenuPage.cpp
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  LoveRand.cpp
+  LoveShow.cpp
+  MenuPage.cpp
   MoneyRand.cpp
-  MoneyShow.cpp
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(75,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(78,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(80,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(92,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(97,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(101,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(113,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(118,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(122,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(134,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(139,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(143,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(163,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(165,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
   Start.cpp
-  Generating Code...
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(75,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(78,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(80,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(92,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(97,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(101,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(113,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(118,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(122,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(134,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(139,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(143,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(163,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\MenuPage.h(165,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\x64\Debug\Power6Rangers.exe
+  WorkRand.cpp
+  WorkShow.cpp
+  Generating Code...

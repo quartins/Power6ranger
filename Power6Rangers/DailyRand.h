@@ -1,4 +1,5 @@
 #pragma once
+#include "DailyShow.h"
 
 namespace Power6Rangers {
 
@@ -57,12 +58,13 @@ namespace Power6Rangers {
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
-			this->button1->Location = System::Drawing::Point(560, 712);
+			this->button1->Location = System::Drawing::Point(536, 720);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(520, 136);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"button1";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
 			// 
 			// DailyRand
 			// 
@@ -74,9 +76,15 @@ namespace Power6Rangers {
 			this->Controls->Add(this->button1);
 			this->Name = L"DailyRand";
 			this->Text = L"DailyRand";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		DailyShow^ ToDS = gcnew DailyShow;
+		ToDS->Show();
+		this->Close();
+	}
 	};
 }

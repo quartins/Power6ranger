@@ -4,6 +4,6 @@ using namespace Power6Rangers;
 
 int main() {
 	Application::EnableVisualStyles;
-	Application::SetCompatibleTextRenderingDefault;
+	Application::SetCompatibleTextRenderingDefault(false);
 	Application::Run(gcnew Start());
 }

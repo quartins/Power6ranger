@@ -162,6 +162,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LoveRand.resx">
+      <DependentUpon>LoveRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoveShow.resx">
+      <DependentUpon>LoveShow.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MoneyRand.resx">
       <DependentUpon>MoneyRand.h</DependentUpon>
     </EmbeddedResource>
@@ -195,6 +201,50 @@
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\00-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\01-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\02-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\03-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\04-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\05-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\06-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\07-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\08-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\09-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\10-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\11-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\12-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\13-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\14-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\15-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\16-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\17-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\18-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\19-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\20-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\21-major.png" />
+    <Image Include="show_major0.png" />
+    <Image Include="show_major02.jpg" />
+    <Image Include="show_major03.jpg" />
+    <Image Include="show_major04.jpg" />
+    <Image Include="show_major05.jpg" />
+    <Image Include="show_major06.jpg" />
+    <Image Include="show_major07.jpg" />
+    <Image Include="show_major08.jpg" />
+    <Image Include="show_major09.jpg" />
+    <Image Include="show_major1.jpg" />
+    <Image Include="show_major10.jpg" />
+    <Image Include="show_major11.jpg" />
+    <Image Include="show_major12.jpg" />
+    <Image Include="show_major13.jpg" />
+    <Image Include="show_major14.jpg" />
+    <Image Include="show_major15.jpg" />
+    <Image Include="show_major16.jpg" />
+    <Image Include="show_major17.jpg" />
+    <Image Include="show_major18.jpg" />
+    <Image Include="show_major19.jpg" />
+    <Image Include="show_major20.jpg" />
+    <Image Include="show_major21.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
