@@ -2,7 +2,23 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+<<<<<<< HEAD
+      <FullPath>D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+<<<<<<< HEAD
+      <FullPath>D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+<<<<<<< HEAD
+      <FullPath>D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+      <FullPath>C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+>>>>>>> 622f4e19e56a1772b80ce8707cf305027deebed6
+>>>>>>> baa842277ce3f9f3c6c5a74c050cc819b6e27804
+>>>>>>> 23cf957b51fc995378e48081c18e19309eb7f012
+>>>>>>> ac90b3245bdc6fb538a1030d1a0871d8fa5298b9
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
