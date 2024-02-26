@@ -1,16 +1,2 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe
+﻿  Power6Rangers.vcxproj -> D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe
 D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-﻿LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
->>>>>>> 622f4e19e56a1772b80ce8707cf305027deebed6
-=======
-﻿  MenuPage.cpp
-  MoneyRand.cpp
-  Start.cpp
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
->>>>>>> b05974190553417439e9c63f1be495ba71c35cba
