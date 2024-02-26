@@ -36,6 +36,7 @@ namespace Power6Rangers {
 			}
 		}
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	protected:
 
 	private:
@@ -51,27 +52,56 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Start::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(584, 752);
+			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button1->BackColor = System::Drawing::Color::Yellow;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Angsana New", 25.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button1->Location = System::Drawing::Point(529, 394);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(384, 128);
+			this->button1->Size = System::Drawing::Size(206, 74);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"To Menu";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Text = L"start";
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &Start::Button1_Click);
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
+			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox1->Cursor = System::Windows::Forms::Cursors::Help;
+			this->pictureBox1->Location = System::Drawing::Point(12, 235);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(1206, 140);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->TabIndex = 1;
+			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &Start::pictureBox1_Click);
 			// 
 			// Start
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1492, 985);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1219, 630);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"Start";
 			this->Text = L"Start";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -80,6 +110,8 @@ namespace Power6Rangers {
 		MenuPage^ ToMenu = gcnew MenuPage;
 		ToMenu->Show();
 		this->Hide();
+	}
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

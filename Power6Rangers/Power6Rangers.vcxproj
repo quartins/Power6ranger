@@ -162,6 +162,24 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LoveRand.resx">
+      <DependentUpon>LoveRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoveShow.resx">
+      <DependentUpon>LoveShow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyRand.resx">
+      <DependentUpon>MoneyRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyShow.resx">
+      <DependentUpon>MoneyShow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkRand.resx">
+      <DependentUpon>WorkRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkShow.resx">
+      <DependentUpon>WorkShow.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DailyRand.resx">
       <DependentUpon>DailyRand.h</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +192,15 @@
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibilove.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
