@@ -1,7 +1,9 @@
 ﻿  MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow.cpp
   Start.cpp
+  Generating Code...
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
-  Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Power6Rangers.vcxproj -> C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\x64\Debug\Power6Rangers.exe
