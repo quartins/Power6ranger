@@ -35,7 +35,7 @@ namespace Power6Rangers {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ button1;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	protected:
 
@@ -52,26 +52,31 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::Windows::Forms::Button^ button1;
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Start::typeid));
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
-			this->button1->BackColor = System::Drawing::Color::Yellow;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Angsana New", 25.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			button1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			button1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
+			button1->BackColor = System::Drawing::Color::White;
+			button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
+			button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			button1->Font = (gcnew System::Drawing::Font(L"Angsana New", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->button1->Location = System::Drawing::Point(529, 394);
-			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(206, 74);
-			this->button1->TabIndex = 0;
-			this->button1->Text = L"start";
-			this->button1->UseVisualStyleBackColor = false;
-			this->button1->Click += gcnew System::EventHandler(this, &Start::Button1_Click);
+			button1->ForeColor = System::Drawing::SystemColors::Control;
+			button1->Location = System::Drawing::Point(532, 444);
+			button1->Margin = System::Windows::Forms::Padding(2);
+			button1->Name = L"button1";
+			button1->Size = System::Drawing::Size(206, 71);
+			button1->TabIndex = 0;
+			button1->UseVisualStyleBackColor = false;
+			button1->Click += gcnew System::EventHandler(this, &Start::Button1_Click);
 			// 
 			// pictureBox1
 			// 
@@ -96,10 +101,9 @@ namespace Power6Rangers {
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1219, 630);
 			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->button1);
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Controls->Add(button1);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"Start";
-			this->Text = L"Start";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
