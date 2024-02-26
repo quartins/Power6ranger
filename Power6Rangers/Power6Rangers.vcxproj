@@ -162,15 +162,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <EmbeddedResource Include="LoveRand.resx">
       <DependentUpon>LoveRand.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoveShow.resx">
       <DependentUpon>LoveShow.h</DependentUpon>
     </EmbeddedResource>
->>>>>>> 5eb405dcf258e6e7f792bb2c3843499ac2f6b170
     <EmbeddedResource Include="MoneyRand.resx">
       <DependentUpon>MoneyRand.h</DependentUpon>
     </EmbeddedResource>
