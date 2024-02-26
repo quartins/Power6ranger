@@ -18,9 +18,63 @@
     <ClCompile Include="Start.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DailyRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DailyShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoveRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoveShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DailyRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DailyShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoveRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoveShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkShow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
