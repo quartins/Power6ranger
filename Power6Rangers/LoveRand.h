@@ -35,6 +35,7 @@ namespace Power6Rangers {
 			}
 		}
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Label^ label1;
 	protected:
 
 	protected:
@@ -56,6 +57,7 @@ namespace Power6Rangers {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(LoveRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -72,6 +74,21 @@ namespace Power6Rangers {
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &LoveRand::button1_Click);
 			// 
+			// label1
+			// 
+			this->label1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->label1->AutoSize = true;
+			this->label1->BackColor = System::Drawing::Color::Transparent;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->ForeColor = System::Drawing::Color::DarkBlue;
+			this->label1->Location = System::Drawing::Point(423, 150);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(640, 52);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"\"????????????? ??????????????????\"";
+			this->label1->Click += gcnew System::EventHandler(this, &LoveRand::label1_Click);
+			// 
 			// LoveRand
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -79,15 +96,19 @@ namespace Power6Rangers {
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1365, 519);
+			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button1);
 			this->Name = L"LoveRand";
 			this->Text = L"LoveRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }
