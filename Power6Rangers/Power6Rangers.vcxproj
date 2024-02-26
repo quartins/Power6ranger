@@ -161,6 +161,14 @@
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WorkRand.resx">
+      <DependentUpon>WorkRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkShow.resx">
+      <DependentUpon>WorkShow.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
