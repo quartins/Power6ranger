@@ -68,7 +68,7 @@ namespace Power6Rangers {
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Swis721 Blk BT", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
 			this->button1->Location = System::Drawing::Point(368, 72);

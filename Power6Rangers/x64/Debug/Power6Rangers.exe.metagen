@@ -39,6 +39,9 @@ Class Power6Rangers.LoveShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldI
 Class Power6Rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Power6Rangers.MoneyShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6Rangers.MoneyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -49,9 +52,6 @@ Class Power6Rangers.WorkRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldI
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6Rangers.MenuPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class Power6Rangers.MoneyShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6Rangers.Start: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
