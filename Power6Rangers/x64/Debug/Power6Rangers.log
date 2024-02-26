@@ -1,6 +1,9 @@
 ﻿  MenuPage.cpp
-  MoneyRand.cpp
   Start.cpp
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  WorkRand.cpp
+  WorkShow.cpp
   Generating Code...
-LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6Rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
