@@ -14,3 +14,14 @@ D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resource
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.WorkRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.WorkShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.DailyRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.DailyShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe

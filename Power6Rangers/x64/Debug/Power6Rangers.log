@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-﻿  MoneyRand.cpp
-  MoneyShow.cpp
-  Generating Code...
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-LINK : fatal error LNK1561: entry point must be defined
-=======
-﻿  LoveRand.cpp
-  MenuPage.cpp
+﻿  MenuPage.cpp
   Start.cpp
-D:\project compro\Newjaa\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-D:\project compro\Newjaa\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
+  WorkRand.cpp
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
+  WorkShow.cpp
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
->>>>>>> 87e8d227a26c5539473fd8543f5a901599844621
+  Power6Rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe
