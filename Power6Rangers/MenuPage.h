@@ -57,6 +57,7 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MenuPage::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
@@ -65,55 +66,79 @@ namespace Power6Rangers {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(552, 112);
+			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
+			this->button1->Location = System::Drawing::Point(368, 72);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(328, 128);
+			this->button1->Size = System::Drawing::Size(219, 82);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"To Daily";
+			this->button1->Text = L"Daily";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MenuPage::Button1_Click);
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(552, 256);
+			this->button2->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.BackgroundImage")));
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button2->Location = System::Drawing::Point(368, 164);
+			this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(328, 128);
+			this->button2->Size = System::Drawing::Size(219, 82);
 			this->button2->TabIndex = 1;
-			this->button2->Text = L"To Love";
+			this->button2->Text = L"Love";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MenuPage::Button2_Click);
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(552, 400);
+			this->button3->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.BackgroundImage")));
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button3->Location = System::Drawing::Point(368, 256);
+			this->button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(328, 128);
+			this->button3->Size = System::Drawing::Size(219, 82);
 			this->button3->TabIndex = 2;
-			this->button3->Text = L"To Money";
+			this->button3->Text = L"Money";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MenuPage::Button3_Click);
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(552, 544);
+			this->button4->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.BackgroundImage")));
+			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button4->Location = System::Drawing::Point(368, 348);
+			this->button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(328, 128);
+			this->button4->Size = System::Drawing::Size(219, 82);
 			this->button4->TabIndex = 3;
-			this->button4->Text = L"To Work";
+			this->button4->Text = L"Work";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MenuPage::Button4_Click);
 			// 
 			// MenuPage
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1449, 845);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(966, 541);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"MenuPage";
 			this->Text = L"MenuPage";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}

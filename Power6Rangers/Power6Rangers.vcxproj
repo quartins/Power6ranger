@@ -162,6 +162,15 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <EmbeddedResource Include="MoneyRand.resx">
+      <DependentUpon>MoneyRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyShow.resx">
+      <DependentUpon>MoneyShow.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+=======
     <EmbeddedResource Include="WorkRand.resx">
       <DependentUpon>WorkRand.h</DependentUpon>
     </EmbeddedResource>
@@ -182,9 +191,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibilove.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
   </ItemGroup>
+>>>>>>> 87e8d227a26c5539473fd8543f5a901599844621
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
