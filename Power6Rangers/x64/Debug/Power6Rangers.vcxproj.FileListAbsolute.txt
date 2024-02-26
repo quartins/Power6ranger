@@ -14,3 +14,5 @@ D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resource
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.LoveRand.resources
+D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.LoveShow.resources
