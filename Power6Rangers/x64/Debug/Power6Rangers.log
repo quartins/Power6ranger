@@ -1,8 +1,8 @@
-﻿  DailyRand.cpp
+﻿  LoveRand.cpp
   MenuPage.cpp
   Start.cpp
-D:\My_Work\Project\Git\PW6RG\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-D:\My_Work\Project\Git\PW6RG\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
+D:\project compro\Newjaa\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+D:\project compro\Newjaa\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> D:\My_Work\Project\Git\PW6RG\Power6Rangers\x64\Debug\Power6Rangers.exe
+  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe

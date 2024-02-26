@@ -162,13 +162,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <EmbeddedResource Include="WorkRand.resx">
       <DependentUpon>WorkRand.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkShow.resx">
       <DependentUpon>WorkShow.h</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="DailyRand.resx">
       <DependentUpon>DailyRand.h</DependentUpon>
     </EmbeddedResource>
@@ -180,8 +179,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.h</DependentUpon>
->>>>>>> 9867807748e14ae12b2b57266f2eead46176b28c
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
