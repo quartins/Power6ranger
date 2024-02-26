@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  MenuPage.cpp
   Start.cpp
   WorkRand.cpp
@@ -7,3 +8,16 @@ C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\Start.cpp(7,15): 
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Power6Rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe
+=======
+<<<<<<< HEAD
+﻿  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
+=======
+﻿  Start.cpp
+D:\My_Work\Project\Git\PW6RG\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+MoneyRand.obj : error LNK2022: metadata operation failed (801311D6) : Differing number of methods in duplicated types (Power6Rangers.MoneyRand): (0x02000003).
+MoneyRand.obj : error LNK2022: metadata operation failed (801311D7) : Differing number of fields in duplicated types (Power6Rangers.MoneyRand): (0x02000003).
+LINK : fatal error LNK1255: link failed because of metadata errors
+>>>>>>> 6fe14f422138e0d2fed0e6e96d65c5874cb5a271
+>>>>>>> 5eb405dcf258e6e7f792bb2c3843499ac2f6b170

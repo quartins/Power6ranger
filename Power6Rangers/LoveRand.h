@@ -64,7 +64,7 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::LightPink;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(611, 313);
+			this->button1->Location = System::Drawing::Point(612, 315);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(250, 63);
 			this->button1->TabIndex = 0;
@@ -76,6 +76,7 @@ namespace Power6Rangers {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1365, 519);
 			this->Controls->Add(this->button1);

@@ -78,14 +78,11 @@ namespace Power6Rangers {
 			this->DoubleBuffered = true;
 			this->Name = L"MoneyRand";
 			this->Text = L"MoneyRand";
-			this->Load += gcnew System::EventHandler(this, &MoneyRand::MoneyRand_Load);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void MoneyRand_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }
