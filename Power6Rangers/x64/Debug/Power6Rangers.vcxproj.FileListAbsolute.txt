@@ -14,3 +14,12 @@ D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resource
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.WorkRand.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.WorkShow.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.DailyRand.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.DailyShow.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
+D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe
