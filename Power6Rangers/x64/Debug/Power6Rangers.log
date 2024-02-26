@@ -1,1 +1,6 @@
-﻿LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
+﻿  MenuPage.cpp
+  MoneyRand.cpp
+  Start.cpp
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
