@@ -1,4 +1,10 @@
-﻿  Start.cpp
-D:\project compro\power6ranger4\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-D:\project compro\power6ranger4\Power6Rangers\Start.cpp(7,15): warning C4551: function call missing argument list
-LINK : fatal error LNK1104: cannot open file 'D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe'
+﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+WorkRand.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
+WorkShow.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
+WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+LoveShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+MSVCRTD.lib(amdsecgs.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+  Power6Rangers.vcxproj -> D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.

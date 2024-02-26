@@ -14,6 +14,23 @@ D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resource
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+<<<<<<< HEAD
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.WorkRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.WorkShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.DailyRand.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.DailyShow.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
+C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe
+=======
+<<<<<<< HEAD
+D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.LoveRand.resources
+D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.LoveShow.resources
+=======
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.WorkRand.resources
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.WorkShow.resources
@@ -23,5 +40,10 @@ D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.r
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe
+<<<<<<< HEAD
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
 D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow.resources
+=======
+>>>>>>> 8b4f1085f7cd4b560faca12951d22d9f3621f717
+>>>>>>> 5eb405dcf258e6e7f792bb2c3843499ac2f6b170
+>>>>>>> 622f4e19e56a1772b80ce8707cf305027deebed6
