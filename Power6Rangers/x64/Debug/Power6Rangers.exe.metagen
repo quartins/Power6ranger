@@ -1,5 +1,9 @@
   Power6Rangers.LoveRand.resources - Embedded, ContainedInManifestFile, 
   Power6Rangers.LoveShow.resources - Embedded, ContainedInManifestFile, 
+<<<<<<< HEAD
+=======
+>>>>>>> 0c92560e3350b7509f1e4b6dcc2562be8b9fd574
+>>>>>>> 626b0f7aae92231238c56fd7f5043dc74b99f1fc
   Power6Rangers.MoneyRand.resources - Embedded, ContainedInManifestFile, 
   Power6Rangers.MoneyShow.resources - Embedded, ContainedInManifestFile, 
   Power6Rangers.WorkRand.resources - Embedded, ContainedInManifestFile, 
@@ -29,10 +33,10 @@ Class Power6Rangers.DailyShow: AutoLayout, AnsiClass, Class, Public, BeforeField
 Class Power6Rangers.DailyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class Power6Rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class Power6Rangers.LoveShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class Power6Rangers.LoveShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class Power6Rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6Rangers.MoneyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

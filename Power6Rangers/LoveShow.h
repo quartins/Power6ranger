@@ -60,21 +60,24 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::LightPink;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1101, 431);
+			this->button1->Location = System::Drawing::Point(1652, 673);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(157, 55);
+			this->button1->Size = System::Drawing::Size(236, 86);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"BACK";
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &LoveShow::Button1_Click);
 			// 
 			// LoveShow
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1372, 522);
+			this->ClientSize = System::Drawing::Size(2058, 816);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"LoveShow";
 			this->Text = L"LoveShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -82,5 +85,8 @@ namespace Power6Rangers {
 
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+	}
 	};
 }

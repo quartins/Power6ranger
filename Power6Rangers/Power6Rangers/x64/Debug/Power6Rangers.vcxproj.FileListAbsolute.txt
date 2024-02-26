@@ -6,3 +6,5 @@ C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Ranger
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resources
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
+C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow.resources
