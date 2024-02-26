@@ -106,8 +106,9 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		MoneyShow obj;
-		obj.ShowDialog();
+		MoneyShow^ ToMS = gcnew MoneyShow;
+		ToMS->Show();
+		this->Close();
 	}
 	private: System::Void MoneyRand_Load(System::Object^ sender, System::EventArgs^ e) {
 	}

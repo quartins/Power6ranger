@@ -1,6 +1,88 @@
 ﻿  MenuPage.cpp
-  MoneyRand.cpp
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(75,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(78,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(80,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(92,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(97,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(101,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(113,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(118,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(122,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(134,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(139,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(143,1): error C2059: syntax error: '>>'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(163,1): error C2059: syntax error: '<<'
+  (compiling source file 'MenuPage.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(165,1): error C2059: syntax error: '=='
+  (compiling source file 'MenuPage.cpp')
+  
   Start.cpp
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(75,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(78,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(80,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(92,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(97,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(101,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(113,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(118,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(122,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(134,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(139,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(143,1): error C2059: syntax error: '>>'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(163,1): error C2059: syntax error: '<<'
+  (compiling source file 'Start.cpp')
+  
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\MenuPage.h(165,1): error C2059: syntax error: '=='
+  (compiling source file 'Start.cpp')
+  
 C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
   Generating Code...
-LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
