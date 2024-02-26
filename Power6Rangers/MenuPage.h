@@ -1,4 +1,8 @@
 #pragma once
+#include "DailyRand.h"
+#include "LoveRand.h"
+#include "MoneyRand.h"
+#include "WorkRand.h"
 
 namespace Power6Rangers {
 
@@ -34,6 +38,11 @@ namespace Power6Rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
+	private: System::Windows::Forms::Button^ button2;
+	private: System::Windows::Forms::Button^ button3;
+	private: System::Windows::Forms::Button^ button4;
 
 	private:
 		/// <summary>
@@ -48,12 +57,82 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"MenuPage";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->button4 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(552, 112);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(328, 128);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"To Daily";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MenuPage::Button1_Click);
+			// 
+			// button2
+			// 
+			this->button2->Location = System::Drawing::Point(552, 256);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(328, 128);
+			this->button2->TabIndex = 1;
+			this->button2->Text = L"To Love";
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &MenuPage::Button2_Click);
+			// 
+			// button3
+			// 
+			this->button3->Location = System::Drawing::Point(552, 400);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(328, 128);
+			this->button3->TabIndex = 2;
+			this->button3->Text = L"To Money";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MenuPage::Button3_Click);
+			// 
+			// button4
+			// 
+			this->button4->Location = System::Drawing::Point(552, 544);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(328, 128);
+			this->button4->TabIndex = 3;
+			this->button4->Text = L"To Work";
+			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &MenuPage::Button4_Click);
+			// 
+			// MenuPage
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1449, 845);
+			this->Controls->Add(this->button4);
+			this->Controls->Add(this->button3);
+			this->Controls->Add(this->button2);
+			this->Controls->Add(this->button1);
+			this->Name = L"MenuPage";
+			this->Text = L"MenuPage";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
-	};
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		DailyRand^ ToDaily = gcnew DailyRand;
+		ToDaily->Show();
+	}
+	private: System::Void Button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		LoveRand^ ToLove = gcnew LoveRand;
+		ToLove->Show();
+	}
+	private: System::Void Button3_Click(System::Object^ sender, System::EventArgs^ e) {
+		MoneyRand^ ToMoney = gcnew MoneyRand;
+		ToMoney->Show();
+	}
+	private: System::Void Button4_Click(System::Object^ sender, System::EventArgs^ e) {
+		WorkRand^ ToWork = gcnew WorkRand;
+		ToWork->Show();
+	}
+};
 }
