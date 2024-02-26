@@ -1,14 +1,2 @@
-﻿  MenuPage.cpp
-  Start.cpp
-D:\project compro\Newjaa\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  Generating Code...
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-DailyRand.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
-DailyRand.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
-DailyShow.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-MenuPage.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+﻿  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
