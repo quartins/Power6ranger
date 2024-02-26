@@ -1,4 +1,5 @@
 #pragma once
+#include "MenuPage.h"
 
 namespace Power6Rangers {
 
@@ -34,6 +35,8 @@ namespace Power6Rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,12 +51,35 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"Start";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(584, 752);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(384, 128);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"To Menu";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &Start::Button1_Click);
+			// 
+			// Start
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1492, 985);
+			this->Controls->Add(this->button1);
+			this->Name = L"Start";
+			this->Text = L"Start";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		MenuPage^ ToMenu = gcnew MenuPage;
+		ToMenu->Show();
+		this->Hide();
+	}
 	};
 }
