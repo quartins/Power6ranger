@@ -81,7 +81,42 @@ namespace Power6Rangers {
 			this->pictureBox1->Size = System::Drawing::Size(411, 433);
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
+			int num;
+			Random^ random = gcnew Random;
+			num = random->Next(1, 14);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("01-wands.png");
+				break;
+			case 2:this->pictureBox1->Load("02-wands.png");
+				break;
+			case 3:this->pictureBox1->Load("03-wands.png");
+				break;
+			case 4:this->pictureBox1->Load("04-wands.png");
+				break;
+			case 5:this->pictureBox1->Load("05-wands.png");
+				break;
+			case 6:this->pictureBox1->Load("06-wands.png");
+				break;
+			case 7:this->pictureBox1->Load("07-wands.png");
+				break;
+			case 8:this->pictureBox1->Load("08-wands.png");
+				break;
+			case 9:this->pictureBox1->Load("09-wands.png");
+				break;
+			case 10:this->pictureBox1->Load("10-wands.png");
+				break;
+			case 11:this->pictureBox1->Load("1page-wands.png");
+				break;
+			case 12:this->pictureBox1->Load("2knight-wands.png");
+				break;
+			case 13:this->pictureBox1->Load("3queen-wands.png");
+				break;
+			case 14:this->pictureBox1->Load("4king-wands.png");
+				break;
 			
+			default: break;
+			}
 			// 
 			// pictureBox2
 			// 
