@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+﻿  MoneyRand.cpp
+  MoneyShow.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : fatal error LNK1561: entry point must be defined
+=======
 ﻿  LoveRand.cpp
   MenuPage.cpp
   Start.cpp
@@ -6,3 +13,4 @@ D:\project compro\Newjaa\Power6Rangers\Start.cpp(7,15): warning C4551: function 
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+>>>>>>> 87e8d227a26c5539473fd8543f5a901599844621
