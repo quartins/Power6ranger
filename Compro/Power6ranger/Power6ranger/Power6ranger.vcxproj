@@ -170,6 +170,12 @@
     <EmbeddedResource Include="LoveShow.resx">
       <DependentUpon>LoveShow.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MoneyRand.resx">
+      <DependentUpon>MoneyRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyShow.resx">
+      <DependentUpon>MoneyShow.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
