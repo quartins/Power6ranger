@@ -29,10 +29,10 @@ Class Power6Rangers.DailyShow: AutoLayout, AnsiClass, Class, Public, BeforeField
 Class Power6Rangers.DailyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class Power6Rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class Power6Rangers.LoveShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class Power6Rangers.LoveShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class Power6Rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6Rangers.MoneyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

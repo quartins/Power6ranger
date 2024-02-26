@@ -1,4 +1,5 @@
 #pragma once
+#include "LoveShow.h"
 
 namespace Power6Rangers {
 
@@ -88,6 +89,9 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		LoveShow^ ToLS = gcnew LoveShow;
+		ToLS->Show();
+		this->Close();
 	}
 	};
 }
