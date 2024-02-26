@@ -1,2 +1,1 @@
 #include "MoneyRand.h"
-

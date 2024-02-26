@@ -78,4 +78,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibilove.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
