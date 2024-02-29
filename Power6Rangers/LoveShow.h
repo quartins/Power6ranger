@@ -76,20 +76,90 @@ namespace Power6Rangers {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(147, 53);
+			this->pictureBox1->Location = System::Drawing::Point(165, 51);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(371, 420);
+			this->pictureBox1->Size = System::Drawing::Size(720, 850);
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
 			this->pictureBox1->Click += gcnew System::EventHandler(this, &LoveShow::pictureBox1_Click);
+			int num;
+			Random^ random = gcnew Random;
+			num = random->Next(1, 14);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("1page-cups.png");
+				break;
+			case 2:this->pictureBox1->Load("2knight-cups.png");
+				break;
+			case 3:this->pictureBox1->Load("3queen-cups.png");
+				break;
+			case 4:this->pictureBox1->Load("4king-cups.png");
+				break;
+			case 5:this->pictureBox1->Load("01-cups.png");
+				break;
+			case 6:this->pictureBox1->Load("02-cups.png");
+				break;
+			case 7:this->pictureBox1->Load("03-cups.png");
+				break;
+			case 8:this->pictureBox1->Load("04-cups.png");
+				break;
+			case 9:this->pictureBox1->Load("05-cups.png");
+				break;
+			case 10:this->pictureBox1->Load("06-cups.png");
+				break;
+			case 11:this->pictureBox1->Load("07-cups.png");
+				break;
+			case 12:this->pictureBox1->Load("08-cups.png");
+				break;
+			case 13:this->pictureBox1->Load("09-cups.png");
+				break;
+			case 14:this->pictureBox1->Load("10-cups.png");
+				break;
+			default: break;
+			}
+
 			// 
 			// pictureBox2
 			// 
 			this->pictureBox2->Location = System::Drawing::Point(657, 51);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(371, 422);
+			this->pictureBox2->Size = System::Drawing::Size(720, 850);
 			this->pictureBox2->TabIndex = 2;
-			this->pictureBox2->TabStop = false;
+			this->pictureBox2->TabStop = false; int num;
+			Random^ random = gcnew Random;
+			num = random->Next(1, 14);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("show_cups01.png");
+				break;
+			case 2:this->pictureBox1->Load("show_cups02.png");
+				break;
+			case 3:this->pictureBox1->Load("show_cups03.png");
+				break;
+			case 4:this->pictureBox1->Load("show_cups04.png");
+				break;
+			case 5:this->pictureBox1->Load("show_cups05.png");
+				break;
+			case 6:this->pictureBox1->Load("show_cups06.png");
+				break;
+			case 7:this->pictureBox1->Load("show_cups07.png");
+				break;
+			case 8:this->pictureBox1->Load("show_cups08.png");
+				break;
+			case 9:this->pictureBox1->Load("show_cups09.png");
+				break;
+			case 10:this->pictureBox1->Load("show_cups10.png");
+				break;
+			case 11:this->pictureBox1->Load("show_cups11.png");
+				break;
+			case 12:this->pictureBox1->Load("show_cups12.png");
+				break;
+			case 13:this->pictureBox1->Load("show_cups13.png");
+				break;
+			case 14:this->pictureBox1->Load("show_cups14.png");
+				break;
+			default: break;
+			}
 			// 
 			// LoveShow
 			// 
@@ -113,7 +183,6 @@ namespace Power6Rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 	}
-	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
+	
 	};
 }
