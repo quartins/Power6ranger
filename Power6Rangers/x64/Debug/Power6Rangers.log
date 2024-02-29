@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 ﻿  DailyRand.cpp
-  DailyShow.cpp
   MenuPage.cpp
   Start.cpp
 D:\My_Work\Project\CloneGit\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
@@ -8,51 +6,3 @@ D:\My_Work\Project\CloneGit\Power6Rangers\Start.cpp(6,15): warning C4551: functi
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Power6Rangers.vcxproj -> D:\My_Work\Project\CloneGit\Power6Rangers\x64\Debug\Power6Rangers.exe
 D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-<<<<<<< HEAD
-﻿  Power6Rangers.vcxproj -> D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe
-D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-<<<<<<< HEAD
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-WorkRand.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
-WorkShow.obj : warning LNK4205: '' is missing current debugging information for referencing module; linking object as if no debug info
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-LoveShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-MSVCRTD.lib(amdsecgs.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-  Power6Rangers.vcxproj -> D:\project compro\power6ranger4\Power6Rangers\x64\Debug\Power6Rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-<<<<<<< HEAD
-﻿  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> D:\My_Work\Project\Git\Power6Rangers\x64\Debug\Power6Rangers.exe
-D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-﻿LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
->>>>>>> 622f4e19e56a1772b80ce8707cf305027deebed6
-=======
-﻿  MenuPage.cpp
-  Start.cpp
-C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  WorkRand.cpp
-  WorkShow.cpp
-  Generating Code...
-<<<<<<< HEAD
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\Desktop\comprog003\Power6Rangers\x64\Debug\Power6Rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew1\Power6Rangers\x64\Debug\Power6Rangers.exe'
->>>>>>> b05974190553417439e9c63f1be495ba71c35cba
->>>>>>> baa842277ce3f9f3c6c5a74c050cc819b6e27804
->>>>>>> 23cf957b51fc995378e48081c18e19309eb7f012
->>>>>>> ac90b3245bdc6fb538a1030d1a0871d8fa5298b9
->>>>>>> e7ae8fe39cf032bdbaf04778732ba48d23bf22d6
->>>>>>> e835938c93b81c10008be76e6e7ae79c63819bf9
