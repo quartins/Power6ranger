@@ -76,9 +76,10 @@ namespace Power6Rangers {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(62, 38);
+			this->pictureBox1->Location = System::Drawing::Point(16, 16);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(411, 433);
+			this->pictureBox1->Size = System::Drawing::Size(650, 850);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
 			int num;
@@ -120,11 +121,42 @@ namespace Power6Rangers {
 			// 
 			// pictureBox2
 			// 
-			this->pictureBox2->Location = System::Drawing::Point(583, 34);
+			
+			this->pictureBox2->Location = System::Drawing::Point(973, 16);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(402, 437);
+			this->pictureBox2->Size = System::Drawing::Size(650, 720);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
+			if (num == 1)
+				this->pictureBox2->Load("show_wands01.jpg");
+			else if (num == 2)
+				this->pictureBox2->Load("show_wands02.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_wands03.jpg");
+			else if (num == 4)
+				this->pictureBox2->Load("show_wands04.jpg");
+			else if (num == 5)
+				this->pictureBox2->Load("show_wands05.jpg");
+			else if (num == 6)
+				this->pictureBox2->Load("show_wands06.jpg");
+			else if (num == 7)
+				this->pictureBox2->Load("show_wands07.jpg");
+			else if (num == 8)
+				this->pictureBox2->Load("show_wands08.jpg");
+			else if (num == 9)
+				this->pictureBox2->Load("show_wands09.jpg");
+			else if (num == 10)
+				this->pictureBox2->Load("show_wands10.jpg");
+			else if (num == 11)
+				this->pictureBox2->Load("show_wands11.jpg");
+			else if (num == 12)
+				this->pictureBox2->Load("show_wands12.jpg");
+			else if (num == 13)
+				this->pictureBox2->Load("show_wands13.jpg");
+			else if (num == 14)
+				this->pictureBox2->Load("show_wands14.jpg");
+			
 			// 
 			// WorkShow
 			// 
@@ -144,6 +176,7 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
 		
 	}
 	};
