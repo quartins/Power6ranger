@@ -2,8 +2,8 @@
   LoveShow.cpp
   MenuPage.cpp
   Start.cpp
-  Generating Code...
 D:\project compro\Newjaa\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
 DailyRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
 DailyRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
