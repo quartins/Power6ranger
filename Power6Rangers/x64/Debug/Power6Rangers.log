@@ -1,1 +1,8 @@
-﻿C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FianlPronew4\Power6Rangers\DailyRand.resx(124,2): error MSB3103: Invalid Resx file. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 124, position 2.
+﻿  MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow.cpp
+  Sound.cpp
+  Start.cpp
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew6\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  Generating Code...
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew6\Power6Rangers\DailyRand.resx(124,2): error MSB3103: Invalid Resx file. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 124, position 2.

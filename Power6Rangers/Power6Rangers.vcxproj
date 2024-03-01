@@ -80,7 +80,8 @@
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -125,6 +126,7 @@
     <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="MoneyRand.cpp" />
     <ClCompile Include="MoneyShow.cpp" />
+    <ClCompile Include="Sound.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -149,6 +151,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MoneyShow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Start.h">
@@ -182,6 +187,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DailyRand.resx">
       <DependentUpon>DailyRand.h</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
@@ -204,10 +210,6 @@
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\11-pentacles-1page.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\12-pentacles-2knight.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\13-pentacles-3queen.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\14-pentacles-4king.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles02.jpg" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles03.jpg" />
@@ -237,6 +239,10 @@
     <Image Include="08-wands.png" />
     <Image Include="09-wands.png" />
     <Image Include="10-wands.png" />
+    <Image Include="11-pentacles.png" />
+    <Image Include="12-pentacles.png" />
+    <Image Include="13-pentacles.png" />
+    <Image Include="14-pentacles.png" />
     <Image Include="1page-wands.png" />
     <Image Include="2knight-wands.png" />
     <Image Include="3queen-wands.png" />
@@ -329,6 +335,9 @@
     <Image Include="show_wands12.jpg" />
     <Image Include="show_wands13.jpg" />
     <Image Include="show_wands14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

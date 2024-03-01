@@ -74,6 +74,7 @@ namespace Power6Rangers {
 			this->button1->Size = System::Drawing::Size(161, 67);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MoneyShow::button1_Click);
 			// 
 			// pictureBox1
 			// 
@@ -81,10 +82,11 @@ namespace Power6Rangers {
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox1->Location = System::Drawing::Point(263, 41);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(350, 430);
+			this->pictureBox1->Size = System::Drawing::Size(600, 750);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
+
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 14);
@@ -104,22 +106,24 @@ namespace Power6Rangers {
 				break;
 			case 7:this->pictureBox1->Load("07-pentacles.png");
 				break;
-			case 8:this->pictureBox1->Load("08-pentacles.png");
+			case 8:this->pictureBox1->Load("08-prntacles.png");
 				break;
 			case 9:this->pictureBox1->Load("09-pentacles.png");
 				break;
 			case 10:this->pictureBox1->Load("10-pentacles.png");
 				break;
-			case 11:this->pictureBox1->Load("11-pentacles-1page.png");
+			case 11:this->pictureBox1->Load("11-pentacles.png");
 				break;
-			case 12:this->pictureBox1->Load("12-pentacles-2knight.png");
+			case 12:this->pictureBox1->Load("12-pentacles.png");
 				break;
-			case 13:this->pictureBox1->Load("13-pentacles-3queen.png");
+			case 13:this->pictureBox1->Load("13-pentacles.png");
 				break;
-			case 14:this->pictureBox1->Load("14-pentacles-4king.png");
+			case 14:this->pictureBox1->Load("14-pentacles.png");
 				break;
+
 			default: break;
 			}
+
 			// 
 			// pictureBox2
 			// 
@@ -127,55 +131,40 @@ namespace Power6Rangers {
 			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox2->Location = System::Drawing::Point(927, 41);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(350, 430);
+			this->pictureBox2->Size = System::Drawing::Size(600, 750);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
 
 			if (num == 1)
-				this->pictureBox2->Load("show_major0.png");
+				this->pictureBox2->Load("show_pentacles01.jpg");
 			else if (num == 2)
-				this->pictureBox2->Load("show_major1.jpg");
+				this->pictureBox2->Load("show_pentacles02.jpg");
 			else if (num == 3)
-				this->pictureBox2->Load("show_major02.jpg");
+				this->pictureBox2->Load("show_pentacles03.jpg");
 			else if (num == 4)
-				this->pictureBox2->Load("show_major03.jpg");
+				this->pictureBox2->Load("show_pentacles04.jpg");
 			else if (num == 5)
-				this->pictureBox2->Load("show_major04.jpg");
+				this->pictureBox2->Load("show_pentacles05.jpg");
 			else if (num == 6)
-				this->pictureBox2->Load("show_major05.jpg");
+				this->pictureBox2->Load("show_pentacles06.jpg");
 			else if (num == 7)
-				this->pictureBox2->Load("show_major06.jpg");
+				this->pictureBox2->Load("show_pentacles07.jpg");
 			else if (num == 8)
-				this->pictureBox2->Load("show_major07.jpg");
+				this->pictureBox2->Load("show_pentacles08.jpg");
 			else if (num == 9)
-				this->pictureBox2->Load("show_major08.jpg");
+				this->pictureBox2->Load("show_pentacles09.jpg");
 			else if (num == 10)
-				this->pictureBox2->Load("show_major09.jpg");
+				this->pictureBox2->Load("show_pentacles10.jpg");
 			else if (num == 11)
-				this->pictureBox2->Load("show_major10.jpg");
+				this->pictureBox2->Load("show_pentacles11.jpg");
 			else if (num == 12)
-				this->pictureBox2->Load("show_major11.jpg");
+				this->pictureBox2->Load("show_pentacles12.jpg");
 			else if (num == 13)
-				this->pictureBox2->Load("show_major12.jpg");
+				this->pictureBox2->Load("show_pentacles13.jpg");
 			else if (num == 14)
-				this->pictureBox2->Load("show_major13.jpg");
-			else if (num == 15)
-				this->pictureBox2->Load("show_major14.jpg");
-			else if (num == 16)
-				this->pictureBox2->Load("show_major15.jpg");
-			else if (num == 17)
-				this->pictureBox2->Load("show_major16.jpg");
-			else if (num == 18)
-				this->pictureBox2->Load("show_major17.jpg");
-			else if (num == 19)
-				this->pictureBox2->Load("show_major18.jpg");
-			else if (num == 20)
-				this->pictureBox2->Load("show_major19.jpg");
-			else if (num == 21)
-				this->pictureBox2->Load("show_major20.jpg");
-			else if (num == 22)
-				this->pictureBox2->Load("show_major21.jpg");
+				this->pictureBox2->Load("show_pentacles14.jpg");
+
 			// 
 			// MoneyShow
 			// 
@@ -194,7 +183,12 @@ namespace Power6Rangers {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+}
 };
 }

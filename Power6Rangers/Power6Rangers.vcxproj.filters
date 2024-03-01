@@ -1,489 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="DailyRand.cpp" />
+    <ClCompile Include="DailyShow.cpp" />
+    <ClCompile Include="LoveRand.cpp" />
+    <ClCompile Include="LoveShow.cpp" />
+    <ClCompile Include="MenuPage.cpp" />
+    <ClCompile Include="MoneyRand.cpp" />
+    <ClCompile Include="MoneyShow.cpp" />
+    <ClCompile Include="Start.cpp" />
+    <ClCompile Include="WorkRand.cpp" />
+    <ClCompile Include="WorkShow.cpp" />
+    <ClCompile Include="Sound.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Start.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DailyRand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DailyShow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LoveRand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LoveShow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuPage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MoneyRand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MoneyShow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WorkRand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WorkShow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="DailyRand.h" />
+    <ClInclude Include="DailyShow.h" />
+    <ClInclude Include="LoveRand.h" />
+    <ClInclude Include="LoveShow.h" />
+    <ClInclude Include="MenuPage.h" />
+    <ClInclude Include="MoneyRand.h" />
+    <ClInclude Include="MoneyShow.h" />
+    <ClInclude Include="Start.h" />
+    <ClInclude Include="WorkRand.h" />
+    <ClInclude Include="WorkShow.h" />
+    <ClInclude Include="Sound.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Start.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DailyRand.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DailyShow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LoveRand.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LoveShow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuPage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MoneyRand.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MoneyShow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WorkRand.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WorkShow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\02-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\03-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\04-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles02.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles03.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles04.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles05.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles06.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles07.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles08.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles09.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles10.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles11.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles12.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles13.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles14.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibilove.jpg" />
+    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg" />
+    <Image Include="01-wands.png" />
+    <Image Include="02-wands.png" />
+    <Image Include="03-wands.png" />
+    <Image Include="04-wands.png" />
+    <Image Include="05-wands.png" />
+    <Image Include="06-wands.png" />
+    <Image Include="07-wands.png" />
+    <Image Include="08-wands.png" />
+    <Image Include="09-wands.png" />
+    <Image Include="10-wands.png" />
+    <Image Include="1page-wands.png" />
+    <Image Include="2knight-wands.png" />
+    <Image Include="3queen-wands.png" />
+    <Image Include="4king-wands.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\01-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\02-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\03-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\04-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\05-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\06-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\07-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\08-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\09-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\10-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\1page-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\2knight-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\3queen-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\4king-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups01.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups02.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups03.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups04.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups05.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups06.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups07.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups08.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups09.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups10.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups11.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups12.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups13.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups14.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\00-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\01-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\02-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\03-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\04-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\05-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\06-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\07-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\08-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\09-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\10-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\11-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\12-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\13-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\14-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\15-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\16-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\17-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\18-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\19-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\20-major.png" />
+    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\21-major.png" />
+    <Image Include="show_major0.png" />
+    <Image Include="show_major02.jpg" />
+    <Image Include="show_major03.jpg" />
+    <Image Include="show_major04.jpg" />
+    <Image Include="show_major05.jpg" />
+    <Image Include="show_major06.jpg" />
+    <Image Include="show_major07.jpg" />
+    <Image Include="show_major08.jpg" />
+    <Image Include="show_major09.jpg" />
+    <Image Include="show_major1.jpg" />
+    <Image Include="show_major10.jpg" />
+    <Image Include="show_major11.jpg" />
+    <Image Include="show_major12.jpg" />
+    <Image Include="show_major13.jpg" />
+    <Image Include="show_major14.jpg" />
+    <Image Include="show_major15.jpg" />
+    <Image Include="show_major16.jpg" />
+    <Image Include="show_major17.jpg" />
+    <Image Include="show_major18.jpg" />
+    <Image Include="show_major19.jpg" />
+    <Image Include="show_major20.jpg" />
+    <Image Include="show_major21.jpg" />
+    <Image Include="show_wands01.jpg" />
+    <Image Include="show_wands02.jpg" />
+    <Image Include="show_wands03.jpg" />
+    <Image Include="show_wands04.jpg" />
+    <Image Include="show_wands05.jpg" />
+    <Image Include="show_wands06.jpg" />
+    <Image Include="show_wands07.jpg" />
+    <Image Include="show_wands08.jpg" />
+    <Image Include="show_wands09.jpg" />
+    <Image Include="show_wands10.jpg" />
+    <Image Include="show_wands11.jpg" />
+    <Image Include="show_wands12.jpg" />
+    <Image Include="show_wands13.jpg" />
+    <Image Include="show_wands14.jpg" />
+    <Image Include="11-pentacles.png" />
+    <Image Include="12-pentacles.png" />
+    <Image Include="13-pentacles.png" />
+    <Image Include="14-pentacles.png" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibimoney.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibilove.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="01-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="02-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="03-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="04-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="05-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="06-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="07-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="08-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="09-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="10-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="1page-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="2knight-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="3queen-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="4king-wands.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\00-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\01-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\02-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\03-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\04-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\05-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\06-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\07-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\08-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\09-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\10-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\11-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\12-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\13-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\14-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\15-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\16-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\17-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\18-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\19-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\20-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\21-major.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major0.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major02.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major03.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major04.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major05.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major06.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major07.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major08.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major09.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major10.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major11.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major12.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major13.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major14.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major15.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major16.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major17.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major18.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major19.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major20.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_major21.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands01.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands02.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands03.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands04.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands05.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands06.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands07.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands08.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands09.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands10.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands11.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands12.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands13.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="show_wands14.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-<<<<<<< HEAD
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\02-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\03-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\04-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\11-pentacles-1page.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\12-pentacles-2knight.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\13-pentacles-3queen.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\14-pentacles-4king.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles02.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles03.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles04.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles05.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles06.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles07.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles08.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles09.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles10.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles11.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles12.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles13.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles14.jpg">
-=======
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\4king-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\08-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\09-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\10-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\01-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\02-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\03-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\04-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\05-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\06-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\07-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\1page-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\2knight-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\3queen-cups.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups02.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups03.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups04.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups05.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups06.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups07.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups08.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups09.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups10.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups11.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups12.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups13.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups14.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups01.png">
->>>>>>> f6fc28f5760a5c8314156e50416e482db4952f89
-      <Filter>Resource Files</Filter>
-    </Image>
+    <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
   </ItemGroup>
 </Project>
