@@ -194,6 +194,34 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\02-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\03-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\04-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\11-pentacles-1page.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\12-pentacles-2knight.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\13-pentacles-3queen.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\14-pentacles-4king.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles02.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles03.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles04.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles05.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles06.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles07.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles08.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles09.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles10.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles11.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles12.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles13.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles14.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg" />
