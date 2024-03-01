@@ -110,13 +110,13 @@ namespace Power6Rangers {
 				break;
 			case 10:this->pictureBox1->Load("10-pentacles.png");
 				break;
-			case 11:this->pictureBox1->Load("11-pentacles-1page");
+			case 11:this->pictureBox1->Load("11-pentacles-1page.png");
 				break;
-			case 12:this->pictureBox1->Load("12-pentacles-2knight");
+			case 12:this->pictureBox1->Load("12-pentacles-2knight.png");
 				break;
-			case 13:this->pictureBox1->Load("13-pentacles-3queen");
+			case 13:this->pictureBox1->Load("13-pentacles-3queen.png");
 				break;
-			case 14:this->pictureBox1->Load("14-pentacles-4king");
+			case 14:this->pictureBox1->Load("14-pentacles-4king.png");
 				break;
 			default: break;
 			}
