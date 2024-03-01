@@ -316,6 +316,7 @@
     <Image Include="show_wands14.jpg">
       <Filter>Resource Files</Filter>
     </Image>
+<<<<<<< HEAD
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png">
       <Filter>Resource Files</Filter>
     </Image>
@@ -398,6 +399,90 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles14.jpg">
+=======
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\4king-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\08-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\09-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\10-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\01-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\02-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\03-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\04-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\05-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\06-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\07-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\1page-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\2knight-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\3queen-cups.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups01.png">
+>>>>>>> f6fc28f5760a5c8314156e50416e482db4952f89
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
