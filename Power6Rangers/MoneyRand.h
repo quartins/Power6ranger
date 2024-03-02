@@ -1,5 +1,5 @@
 #pragma once
-#include"MoneyShow.h"
+#include"MoneyShow1.h"
 
 namespace Power6Rangers {
 
@@ -107,7 +107,7 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		MoneyShow^ ToMS = gcnew MoneyShow;
+		MoneyShow1^ ToMS = gcnew MoneyShow1;
 		ToMS->Show();
 		this->Close();
 	}

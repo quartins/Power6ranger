@@ -12,6 +12,7 @@
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
     <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="MoneyShow1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyRand.h" />
@@ -25,6 +26,7 @@
     <ClInclude Include="WorkRand.h" />
     <ClInclude Include="WorkShow.h" />
     <ClInclude Include="Sound.h" />
+    <ClInclude Include="MoneyShow1.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png" />
@@ -165,20 +167,12 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
+    <Media Include="Test.wav" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Power6Rangers.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="Power6Rangers.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Media Include="Test.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wave2.bin">
-      <Filter>Resource Files</Filter>
-    </None>
+    <None Include="wave2.bin" />
   </ItemGroup>
 </Project>
