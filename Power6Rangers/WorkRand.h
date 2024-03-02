@@ -64,9 +64,9 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::White;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->Location = System::Drawing::Point(415, 359);
+			this->button1->Location = System::Drawing::Point(411, 312);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(167, 58);
+			this->button1->Size = System::Drawing::Size(200, 74);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &WorkRand::button1_Click);
