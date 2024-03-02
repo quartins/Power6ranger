@@ -1,23 +1,7 @@
-<<<<<<< HEAD
-﻿Power6Rangers.rc(3): fatal error RC1015: cannot open include file 'resource.h'.
-  
-=======
-﻿  LoveRand.cpp
-  LoveShow.cpp
-  MenuPage.cpp
+﻿  MenuPage.cpp
   Start.cpp
-  Generating Code...
-<<<<<<< HEAD
 D:\project compro\Finalrealfinal\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  WorkRand.cpp
+  WorkShow.cpp
+  Generating Code...
 LINK : fatal error LNK1104: cannot open file 'D:\project compro\Finalrealfinal\Power6Rangers\x64\Debug\Power6Rangers.exe'
-=======
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-WorkShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-kernel32.lib(KERNEL32.dll) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-  Power6Rangers.vcxproj -> D:\My_Work\Project\CloneGit\Power6Rangers\x64\Debug\Power6Rangers.exe
-D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
->>>>>>> cd6fc6b18c1829658b93e8c3dcea5b76384615d0
->>>>>>> cc3de4943432b25a2339f3e4d1ffc0fa71fe7f76
