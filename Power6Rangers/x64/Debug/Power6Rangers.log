@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  LoveRand.cpp
 D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(128,8): error C2086: 'int num': redefinition
   (compiling source file 'LoveRand.cpp')
@@ -70,3 +71,13 @@ D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(108,44): error C3924: error in
   
 D:\My_Work\Project\CloneGit\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
   Generating Code...
+=======
+﻿  MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow.cpp
+  Sound.cpp
+  Start.cpp
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew6\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  Generating Code...
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalPronew6\Power6Rangers\DailyRand.resx(124,2): error MSB3103: Invalid Resx file. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 124, position 2.
+>>>>>>> 2bc6a5836b731ae2ed94a840ad7103691aa37660
