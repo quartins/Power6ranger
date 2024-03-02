@@ -10,7 +10,6 @@
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
-    <ClCompile Include="Sound.cpp" />
     <ClCompile Include="MoneyShow1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -23,7 +22,6 @@
     <ClInclude Include="Start.h" />
     <ClInclude Include="WorkRand.h" />
     <ClInclude Include="WorkShow.h" />
-    <ClInclude Include="Sound.h" />
     <ClInclude Include="MoneyShow1.h" />
   </ItemGroup>
   <ItemGroup>
@@ -162,15 +160,5 @@
     <Image Include="12-pentacles.png" />
     <Image Include="13-pentacles.png" />
     <Image Include="14-pentacles.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
-    <Media Include="Test.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Power6Rangers.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wave2.bin" />
   </ItemGroup>
 </Project>
