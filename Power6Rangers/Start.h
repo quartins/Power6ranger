@@ -92,6 +92,7 @@ namespace Power6Rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
+
 			// 
 			// Start
 			// 
@@ -104,6 +105,7 @@ namespace Power6Rangers {
 			this->Controls->Add(button1);
 			this->Name = L"Start";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 

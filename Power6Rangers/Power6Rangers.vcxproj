@@ -129,7 +129,6 @@
     <ClCompile Include="LoveShow.cpp" />
     <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="MoneyRand.cpp" />
-    <ClCompile Include="MoneyShow.cpp" />
     <ClCompile Include="MoneyShow1.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
@@ -152,9 +151,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MoneyRand.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MoneyShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MoneyShow1.h">
@@ -180,11 +176,11 @@
     <EmbeddedResource Include="MoneyRand.resx">
       <DependentUpon>MoneyRand.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MoneyShow.resx">
-      <DependentUpon>MoneyShow.h</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MoneyShow1.resx">
       <DependentUpon>MoneyShow1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sound.resx">
+      <DependentUpon>Sound.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkRand.resx">
       <DependentUpon>WorkRand.h</DependentUpon>
@@ -214,7 +210,7 @@
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />

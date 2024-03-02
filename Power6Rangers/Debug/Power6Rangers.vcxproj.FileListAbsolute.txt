@@ -1,0 +1,14 @@
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.LoveRand.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.LoveShow.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.MoneyRand.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.MoneyShow.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.MoneyShow1.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.WorkRand.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.WorkShow.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.DailyRand.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.DailyShow.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.MenuPage.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.Start.resources
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.vcxproj.GenerateResource.cache
+D:\My_Work\Project\CloneGit\Power6Rangers\Debug\Power6Rangers.exe
