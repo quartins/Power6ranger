@@ -131,7 +131,6 @@
     <ClCompile Include="MoneyRand.cpp" />
     <ClCompile Include="MoneyShow.cpp" />
     <ClCompile Include="MoneyShow1.cpp" />
-    <ClCompile Include="Sound.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -159,9 +158,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MoneyShow1.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="Sound.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Start.h">
@@ -346,19 +342,6 @@
     <Image Include="show_wands12.jpg" />
     <Image Include="show_wands13.jpg" />
     <Image Include="show_wands14.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-
-
-
-	  <ResourceCompile Include="Power6Rangers.rc" />
-  </ItemGroup>
-  <ItemGroup>
-	  <Media Include="Test.wav" />
-  </ItemGroup>
-  <ItemGroup>
-	  <None Include="wave2.bin" />
-    <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,10 +1,14 @@
-<<<<<<< HEAD
-﻿D:\My_Work\Project\CloneGit\Power6Rangers\DailyRand.resx(124,4): error MSB3103: Invalid Resx file. Parameter is not valid. Line 124, position 4.
-=======
-<<<<<<< HEAD
-﻿  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
-=======
-﻿C:\Users\Kanokwan Luksanaaree\Desktop\comprog04\Power6Rangers\DailyRand.resx(124,2): error MSB3103: Invalid Resx file. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 124, position 2.
->>>>>>> 935e5f308ae2f89d5af2904513e13b2ccc50e8d9
->>>>>>> fa1b08d5fa1979b064ab3066a1f48b1c93674f47
+﻿  LoveRand.cpp
+  LoveShow.cpp
+  MenuPage.cpp
+  Start.cpp
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+WorkShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+WorkRand.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+DailyShow.obj : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+kernel32.lib(KERNEL32.dll) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+  Power6Rangers.vcxproj -> D:\My_Work\Project\CloneGit\Power6Rangers\x64\Debug\Power6Rangers.exe
+D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
