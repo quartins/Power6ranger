@@ -1,17 +1,72 @@
 ﻿  LoveRand.cpp
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(128,8): error C2086: 'int num': redefinition
+  (compiling source file 'LoveRand.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(84,8):
+  see declaration of 'num'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(129,12): error C2374: 'random': redefinition; multiple initialization
+  (compiling source file 'LoveRand.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(85,12):
+  see declaration of 'random'
+  
   LoveShow.cpp
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(128,8): error C2086: 'int num': redefinition
+  (compiling source file 'LoveShow.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(84,8):
+  see declaration of 'num'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(129,12): error C2374: 'random': redefinition; multiple initialization
+  (compiling source file 'LoveShow.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(85,12):
+  see declaration of 'random'
+  
   MenuPage.cpp
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(128,8): error C2086: 'int num': redefinition
+  (compiling source file 'MenuPage.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(84,8):
+  see declaration of 'num'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(129,12): error C2374: 'random': redefinition; multiple initialization
+  (compiling source file 'MenuPage.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(85,12):
+  see declaration of 'random'
+  
   Start.cpp
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(128,8): error C2086: 'int num': redefinition
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(84,8):
+  see declaration of 'num'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(129,12): error C2374: 'random': redefinition; multiple initialization
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\LoveShow.h(85,12):
+  see declaration of 'random'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(95,73): error C2039: 'pictureBox1_Click': is not a member of 'Power6Rangers::Start'
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(17,19):
+  see declaration of 'Power6Rangers::Start'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(95,73): error C2065: 'pictureBox1_Click': undeclared identifier
+  (compiling source file 'Start.cpp')
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(95,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(95,58):
+  pointer to member function expected
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(108,59): error C2039: 'Start_Load': is not a member of 'Power6Rangers::Start'
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(17,19):
+  see declaration of 'Power6Rangers::Start'
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(108,59): error C2065: 'Start_Load': undeclared identifier
+  (compiling source file 'Start.cpp')
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(108,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'Start.cpp')
+  D:\My_Work\Project\CloneGit\Power6Rangers\Start.h(108,44):
+  pointer to member function expected
+  
+D:\My_Work\Project\CloneGit\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
   Generating Code...
-D:\project compro\Newjaa\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-DailyRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-DailyRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-DailyShow.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-MoneyRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-MoneyShow.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-WorkRand.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-WorkShow.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-.NETFramework,Version=v4.7.2.AssemblyAttributes.obj : warning LNK4204: '' is missing debugging information for referencing module; linking object as if no debug info
-  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.

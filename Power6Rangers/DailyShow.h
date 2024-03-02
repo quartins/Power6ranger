@@ -67,7 +67,7 @@ namespace Power6Rangers {
 			this->pictureBox1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->pictureBox1->Location = System::Drawing::Point(150, 50);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(730, 850);
+			this->pictureBox1->Size = System::Drawing::Size(600, 850);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
@@ -131,7 +131,7 @@ namespace Power6Rangers {
 			this->pictureBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->pictureBox2->Location = System::Drawing::Point(820, 50);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(650, 850);
+			this->pictureBox2->Size = System::Drawing::Size(600, 850);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
@@ -188,9 +188,9 @@ namespace Power6Rangers {
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 13.875F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1176, 928);
+			this->button1->Location = System::Drawing::Point(1208, 928);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(426, 104);
+			this->button1->Size = System::Drawing::Size(394, 104);
 			this->button1->TabIndex = 2;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyShow::Button1_Click);

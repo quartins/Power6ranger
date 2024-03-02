@@ -81,7 +81,6 @@ namespace Power6Rangers {
 			this->pictureBox1->Size = System::Drawing::Size(720, 850);
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
-			this->pictureBox1->Click += gcnew System::EventHandler(this, &LoveShow::pictureBox1_Click);
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 14);
@@ -125,7 +124,8 @@ namespace Power6Rangers {
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(720, 850);
 			this->pictureBox2->TabIndex = 2;
-			this->pictureBox2->TabStop = false; int num;
+			this->pictureBox2->TabStop = false; 
+			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 14);
 			switch (num)

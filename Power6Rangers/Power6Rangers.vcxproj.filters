@@ -401,4 +401,19 @@
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Power6Rangers.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Test.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wave2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
