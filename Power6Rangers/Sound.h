@@ -48,12 +48,21 @@ namespace Power6Rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"Sound";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->SuspendLayout();
+			// 
+			// Sound
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(282, 253);
+			this->Name = L"Sound";
+			this->Text = L"Sound";
+			this->Load += gcnew System::EventHandler(this, &Sound::Sound_Load);
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private: System::Void Sound_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
 	};
 }

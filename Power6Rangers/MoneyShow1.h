@@ -67,6 +67,45 @@ namespace Power6Rangers {
 			this->pictureBox1->Size = System::Drawing::Size(226, 340);
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &MoneyShow1::pictureBox1_Click);
+
+			int num;
+			Random^ random = gcnew Random;
+			num = random->Next(1, 14);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("01-pentacles.png");
+				break;
+			case 2:this->pictureBox1->Load("02-pentacles.png");
+				break;
+			case 3:this->pictureBox1->Load("03-pentacles.png");
+				break;
+			case 4:this->pictureBox1->Load("04-pentacles.png");
+				break;
+			case 5:this->pictureBox1->Load("05-pentacles.png");
+				break;
+			case 6:this->pictureBox1->Load("06-pentacles.png");
+				break;
+			case 7:this->pictureBox1->Load("07-pentacles.png");
+				break;
+			case 8:this->pictureBox1->Load("08-prntacles.png");
+				break;
+			case 9:this->pictureBox1->Load("09-pentacles.png");
+				break;
+			case 10:this->pictureBox1->Load("10-pentacles.png");
+				break;
+			case 11:this->pictureBox1->Load("11-pentacles.png");
+				break;
+			case 12:this->pictureBox1->Load("12-pentacles.png");
+				break;
+			case 13:this->pictureBox1->Load("13-pentacles.png");
+				break;
+			case 14:this->pictureBox1->Load("14-pentacles.png");
+				break;
+
+			default: break;
+			}
+
 			// 
 			// pictureBox2
 			// 
@@ -75,6 +114,36 @@ namespace Power6Rangers {
 			this->pictureBox2->Size = System::Drawing::Size(226, 340);
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
+
+			if (num == 1)
+				this->pictureBox2->Load("show_pentacles01.jpg");
+			else if (num == 2)
+				this->pictureBox2->Load("show_pentacles02.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_pentacles03.jpg");
+			else if (num == 4)
+				this->pictureBox2->Load("show_pentacles04.jpg");
+			else if (num == 5)
+				this->pictureBox2->Load("show_pentacles05.jpg");
+			else if (num == 6)
+				this->pictureBox2->Load("show_pentacles06.jpg");
+			else if (num == 7)
+				this->pictureBox2->Load("show_pentacles07.jpg");
+			else if (num == 8)
+				this->pictureBox2->Load("show_pentacles08.jpg");
+			else if (num == 9)
+				this->pictureBox2->Load("show_pentacles09.jpg");
+			else if (num == 10)
+				this->pictureBox2->Load("show_pentacles10.jpg");
+			else if (num == 11)
+				this->pictureBox2->Load("show_pentacles11.jpg");
+			else if (num == 12)
+				this->pictureBox2->Load("show_pentacles12.jpg");
+			else if (num == 13)
+				this->pictureBox2->Load("show_pentacles13.jpg");
+			else if (num == 14)
+				this->pictureBox2->Load("show_pentacles14.jpg");
+
 			// 
 			// button1
 			// 
@@ -109,6 +178,8 @@ namespace Power6Rangers {
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
+	}
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

@@ -7,7 +7,6 @@
     <ClCompile Include="LoveShow.cpp" />
     <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="MoneyRand.cpp" />
-    <ClCompile Include="MoneyShow.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -21,7 +20,6 @@
     <ClInclude Include="LoveShow.h" />
     <ClInclude Include="MenuPage.h" />
     <ClInclude Include="MoneyRand.h" />
-    <ClInclude Include="MoneyShow.h" />
     <ClInclude Include="Start.h" />
     <ClInclude Include="WorkRand.h" />
     <ClInclude Include="WorkShow.h" />
@@ -36,7 +34,7 @@
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png" />
-    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-prntacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
     <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />
