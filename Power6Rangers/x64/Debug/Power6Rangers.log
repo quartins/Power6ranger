@@ -1,8 +1,2 @@
-﻿  MenuPage.cpp
-  Start.cpp
-C:\Users\Kanokwan Luksanaaree\Desktop\comprog06\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  WorkRand.cpp
-  WorkShow.cpp
-  Generating Code...
-Power6Rangers.rc(3): fatal error RC1015: cannot open include file 'resource.h'.
+﻿Power6Rangers.rc(3): fatal error RC1015: cannot open include file 'resource.h'.
   

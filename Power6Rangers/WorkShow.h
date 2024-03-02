@@ -64,21 +64,85 @@ namespace Power6Rangers {
 			// pictureBox1
 			// 
 			this->pictureBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Left | System::Windows::Forms::AnchorStyles::Right));
-			this->pictureBox1->Location = System::Drawing::Point(150, -24);
+			this->pictureBox1->Location = System::Drawing::Point(150, 50);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(182, 850);
+			this->pictureBox1->Size = System::Drawing::Size(600, 850);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox1->TabIndex = 1;
+			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
+			int num;
+			Random^ random = gcnew Random();
+			num = random->Next(1, 14);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("01-wands.png");
+				break;
+			case 2:this->pictureBox1->Load("02-wands.png");
+				break;
+			case 3:this->pictureBox1->Load("03-wands.png");
+				break;
+			case 4:this->pictureBox1->Load("04-wands.png");
+				break;
+			case 5:this->pictureBox1->Load("05-wands.png");
+				break;
+			case 6:this->pictureBox1->Load("06-wands.png");
+				break;
+			case 7:this->pictureBox1->Load("07-wands.png");
+				break;
+			case 8:this->pictureBox1->Load("08-wands.png");
+				break;
+			case 9:this->pictureBox1->Load("09-wands.png");
+				break;
+			case 10:this->pictureBox1->Load("10-wands.png");
+				break;
+			case 11:this->pictureBox1->Load("1page-wands.png");
+				break;
+			case 12:this->pictureBox1->Load("2knight-wands.png");
+				break;
+			case 13:this->pictureBox1->Load("3queen-wands.png");
+				break;
+			case 14:this->pictureBox1->Load("4king-wands.png");
+				break;
+
+			default: break;
+			}
 			// 
 			// pictureBox2
 			// 
 			this->pictureBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Left | System::Windows::Forms::AnchorStyles::Right));
-			this->pictureBox2->Location = System::Drawing::Point(820, -24);
+			this->pictureBox2->Location = System::Drawing::Point(820, 50);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(132, 850);
-			this->pictureBox2->TabIndex = 1;
+			this->pictureBox2->Size = System::Drawing::Size(600, 850);
+			this->pictureBox2->TabIndex = 0;
 			this->pictureBox2->TabStop = false;
+			if (num == 1)
+				this->pictureBox2->Load("show_wands01.jpg");
+			else if (num == 2)
+				this->pictureBox2->Load("show_wands02.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_wands03.jpg");
+			else if (num == 4)
+				this->pictureBox2->Load("show_wands04.jpg");
+			else if (num == 5)
+				this->pictureBox2->Load("show_wands05.jpg");
+			else if (num == 6)
+				this->pictureBox2->Load("show_wands06.jpg");
+			else if (num == 7)
+				this->pictureBox2->Load("show_wands07.jpg");
+			else if (num == 8)
+				this->pictureBox2->Load("show_wands08.jpg");
+			else if (num == 9)
+				this->pictureBox2->Load("show_wands09.jpg");
+			else if (num == 10)
+				this->pictureBox2->Load("show_wands10.jpg");
+			else if (num == 11)
+				this->pictureBox2->Load("show_wands11.jpg");
+			else if (num == 12)
+				this->pictureBox2->Load("show_wands12.jpg");
+			else if (num == 13)
+				this->pictureBox2->Load("show_wands13.jpg");
+			else if (num == 14)
+				this->pictureBox2->Load("show_wands14.jpg");
 			// 
 			// button1
 			// 
