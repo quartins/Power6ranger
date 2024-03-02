@@ -1,9 +1,1 @@
-﻿  DailyRand.cpp
-  DailyShow.cpp
-  MenuPage.cpp
-  Start.cpp
-  WorkRand.cpp
-D:\project compro\Finaljingla\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  WorkShow.cpp
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'D:\project compro\Finaljingla\Power6Rangers\x64\Debug\Power6Rangers.exe'
+﻿LINK : fatal error LNK1104: cannot open file 'D:\project compro\Finaljingla\Power6Rangers\x64\Debug\Power6Rangers.exe'
