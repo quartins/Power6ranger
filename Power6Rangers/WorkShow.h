@@ -82,7 +82,7 @@ namespace Power6Rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
-			int num;
+			/*int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 14);
 			switch (num)
@@ -156,7 +156,7 @@ namespace Power6Rangers {
 				this->pictureBox2->Load("show_wands13.jpg");
 			else if (num == 14)
 				this->pictureBox2->Load("show_wands14.jpg");
-			
+			*/
 			// 
 			// WorkShow
 			// 
