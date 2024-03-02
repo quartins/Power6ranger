@@ -1,7 +1,2 @@
-﻿  MenuPage.cpp
-  Start.cpp
-D:\project compro\Finalrealfinal\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
-  WorkRand.cpp
-  WorkShow.cpp
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'D:\project compro\Finalrealfinal\Power6Rangers\x64\Debug\Power6Rangers.exe'
+﻿  Power6Rangers.vcxproj -> D:\project compro\Finaljingla\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
