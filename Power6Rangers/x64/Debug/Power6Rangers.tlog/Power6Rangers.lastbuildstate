@@ -1,2 +1,6 @@
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.38.33130:TargetPlatformVersion=10.0.22621.0:TargetFrameworkVersion=v4.7.2::EnableManagedIncrementalBuild=true:
-Debug|x64|D:\My_Work\Project\CloneGit\Power6Rangers\|
+<<<<<<< HEAD
+Debug|x64|C:\Users\Kanokwan Luksanaaree\Desktop\comprog06\Power6Rangers\|
+=======
+Debug|x64|D:\project compro\Finalrealfinal\Power6Rangers\|
+>>>>>>> aa981bac895d054c0ccc83a5e73228c38ce01cb9
