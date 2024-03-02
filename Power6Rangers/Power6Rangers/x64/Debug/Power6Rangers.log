@@ -1,1 +1,7 @@
-﻿C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\DailyRand.resx(3844,5): error MSB3103: Invalid Resx file. The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.  Line 3844, position 5.
+﻿  MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow1.cpp
+  Start.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6Rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\x64\Debug\Power6Rangers.exe
