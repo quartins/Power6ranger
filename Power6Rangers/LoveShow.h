@@ -132,33 +132,33 @@ namespace Power6Rangers {
 			this->pictureBox2->TabIndex = 0;
 			this->pictureBox2->TabStop = false;
 			if (num == 1)
-				this->pictureBox2->Load("show_cups01.png");
-			else if (num == 2)
-				this->pictureBox2->Load("show_cups02.png");
-			else if (num == 3)
-				this->pictureBox2->Load("show_cups03.png");
-			else if (num == 4)
-				this->pictureBox2->Load("show_cups04.png");
-			else if (num == 5)
-				this->pictureBox2->Load("show_cups05.png");
-			else if (num == 6)
-				this->pictureBox2->Load("show_cups06.png");
-			else if (num == 7)
-				this->pictureBox2->Load("show_cups07.png");
-			else if (num == 8)
-				this->pictureBox2->Load("show_cups08.png");
-			else if (num == 9)
-				this->pictureBox2->Load("show_cups09.png");
-			else if (num == 10)
-				this->pictureBox2->Load("show_cups10.png");
-			else if (num == 11)
 				this->pictureBox2->Load("show_cups11.png");
-			else if (num == 12)
+			else if (num == 2)
 				this->pictureBox2->Load("show_cups12.png");
-			else if (num == 13)
+			else if (num == 3)
 				this->pictureBox2->Load("show_cups13.png");
-			else if (num == 14)
+			else if (num == 4)
 				this->pictureBox2->Load("show_cups14.png");
+			else if (num == 5)
+				this->pictureBox2->Load("show_cups01.png");
+			else if (num == 6)
+				this->pictureBox2->Load("show_cups02.png");
+			else if (num == 7)
+				this->pictureBox2->Load("show_cups03.png");
+			else if (num == 8)
+				this->pictureBox2->Load("show_cups04.png");
+			else if (num == 9)
+				this->pictureBox2->Load("show_cups05.png");
+			else if (num == 10)
+				this->pictureBox2->Load("show_cups06.png");
+			else if (num == 11)
+				this->pictureBox2->Load("show_cups07.png");
+			else if (num == 12)
+				this->pictureBox2->Load("show_cups08.png");
+			else if (num == 13)
+				this->pictureBox2->Load("show_cups09.png");
+			else if (num == 14)
+				this->pictureBox2->Load("show_cups10.png");
 
 			// 
 			// LoveShow

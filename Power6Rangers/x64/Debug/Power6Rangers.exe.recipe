@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Kanokwan Luksanaaree\Desktop\comprog06\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+      <FullPath>D:\project compro\Finalrealfinal\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+>>>>>>> aa981bac895d054c0ccc83a5e73228c38ce01cb9
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
