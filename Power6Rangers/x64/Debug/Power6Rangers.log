@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+﻿  Power6Rangers.vcxproj -> D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
+=======
 ﻿C:\Users\Kanokwan Luksanaaree\Desktop\comprog04\Power6Rangers\DailyRand.resx(124,2): error MSB3103: Invalid Resx file. Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 124, position 2.
+>>>>>>> 935e5f308ae2f89d5af2904513e13b2ccc50e8d9
