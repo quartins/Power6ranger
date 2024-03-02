@@ -85,7 +85,6 @@ namespace Power6Rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
-			this->pictureBox1->Click += gcnew System::EventHandler(this, &LoveShow::pictureBox1_Click);
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 14);

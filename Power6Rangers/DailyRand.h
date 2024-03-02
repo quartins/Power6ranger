@@ -64,9 +64,10 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::Transparent;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->Location = System::Drawing::Point(632, 760);
+			this->button1->Location = System::Drawing::Point(435, 488);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(563, 157);
+			this->button1->Size = System::Drawing::Size(347, 87);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
@@ -78,22 +79,25 @@ namespace Power6Rangers {
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox1->Cursor = System::Windows::Forms::Cursors::Default;
-			this->pictureBox1->Location = System::Drawing::Point(304, 328);
+			this->pictureBox1->Location = System::Drawing::Point(203, 210);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(1208, 288);
+			this->pictureBox1->Size = System::Drawing::Size(805, 184);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &DailyRand::pictureBox1_Click);
 			// 
 			// DailyRand
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1832, 1069);
+			this->ClientSize = System::Drawing::Size(1221, 675);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"DailyRand";
 			this->Text = L"DailyRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -106,6 +110,8 @@ namespace Power6Rangers {
 		DailyShow^ ToDS = gcnew DailyShow;
 		ToDS->Show();
 		this->Close();
+	}
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
+      <FullPath>C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FianlPronew4\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
       <FullPath>D:\project compro\Newjaa\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+>>>>>>> f6fc28f5760a5c8314156e50416e482db4952f89
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

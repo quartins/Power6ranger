@@ -1,5 +1,5 @@
 #pragma once
-#include"MoneyShow.h"
+#include"MoneyShow1.h"
 
 namespace Power6Rangers {
 
@@ -75,13 +75,13 @@ namespace Power6Rangers {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(433, 59);
+			this->pictureBox1->Location = System::Drawing::Point(396, 93);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(598, 92);
+			this->pictureBox1->Size = System::Drawing::Size(611, 92);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -107,7 +107,7 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		MoneyShow^ ToMS = gcnew MoneyShow;
+		MoneyShow1^ ToMS = gcnew MoneyShow1;
 		ToMS->Show();
 		this->Close();
 	}
