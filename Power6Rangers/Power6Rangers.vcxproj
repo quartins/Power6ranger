@@ -341,7 +341,7 @@
     <Image Include="show_wands14.jpg" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <ResourceCompile Include="Power6Rangers.rc" />
   </ItemGroup>
   <ItemGroup>
@@ -349,9 +349,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="wave2.bin" />
-=======
+
     <Media Include="..\..\FianlPronew4\Power6Rangers\closer, the chainsmokers..wav" />
->>>>>>> 2bc6a5836b731ae2ed94a840ad7103691aa37660
+
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
