@@ -1,6 +1,6 @@
-﻿  MenuPage.cpp
-  MoneyRand.cpp
-  MoneyShow1.cpp
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  MenuPage.cpp
   Start.cpp
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
