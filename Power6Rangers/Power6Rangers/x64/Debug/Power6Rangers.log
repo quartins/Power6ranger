@@ -1,4 +1,7 @@
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-MoneyRand.obj : error LNK2022: metadata operation failed (801311D6) : Differing number of methods in duplicated types (Power6Rangers.MoneyShow1): (0x02000005).
-MoneyShow1.obj : error LNK2022: metadata operation failed (801311D6) : Differing number of methods in duplicated types (Power6Rangers.MoneyShow1): (0x02000005).
-LINK : fatal error LNK1255: link failed because of metadata errors
+﻿  MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow1.cpp
+  Start.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6Rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\x64\Debug\Power6Rangers.exe
