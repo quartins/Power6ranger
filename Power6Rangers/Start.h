@@ -117,9 +117,9 @@ namespace Power6Rangers {
 	}
 	private: System::Void Start_Load(System::Object^ sender, System::EventArgs^ e) {
 		SoundPlayer^ sound = gcnew SoundPlayer;
-		sound->SoundLocation = "Test (2).wav";
+		sound->SoundLocation = "BGM1.wav";
 		sound->Load();
-		sound->Play();
+		sound->PlayLooping();
 	}
 };
 }
