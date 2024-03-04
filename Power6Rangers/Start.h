@@ -92,7 +92,6 @@ namespace Power6Rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
-
 			// 
 			// Start
 			// 
@@ -105,7 +104,7 @@ namespace Power6Rangers {
 			this->Controls->Add(button1);
 			this->Name = L"Start";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
-
+			this->Load += gcnew System::EventHandler(this, &Start::Start_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
@@ -115,6 +114,12 @@ namespace Power6Rangers {
 		MenuPage^ ToMenu = gcnew MenuPage;
 		ToMenu->Show();
 		this->Hide();
+	}
+	private: System::Void Start_Load(System::Object^ sender, System::EventArgs^ e) {
+		SoundPlayer^ sound = gcnew SoundPlayer;
+		sound->SoundLocation = "Test (2).wav";
+		sound->Load();
+		sound->Play();
 	}
 };
 }

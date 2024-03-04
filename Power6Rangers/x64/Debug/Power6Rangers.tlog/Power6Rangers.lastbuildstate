@@ -1,2 +1,6 @@
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.38.33130:TargetPlatformVersion=10.0.22621.0:TargetFrameworkVersion=v4.7.2::EnableManagedIncrementalBuild=true:
+<<<<<<< HEAD
 Debug|x64|D:\project compro\Finalproject\Power6Rangers\|
+=======
+Debug|x64|C:\Users\thipw\source\repos\Power6ranger\Power6Rangers\|
+>>>>>>> ab79983cb8b0dca06b62d6282aa8458efa1b0bc4

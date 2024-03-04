@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>D:\project compro\Finalproject\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+=======
+      <FullPath>C:\Users\thipw\source\repos\Power6ranger\Power6Rangers\x64\Debug\Power6Rangers.exe</FullPath>
+>>>>>>> ab79983cb8b0dca06b62d6282aa8458efa1b0bc4
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
