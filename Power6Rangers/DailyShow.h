@@ -65,12 +65,14 @@ namespace Power6Rangers {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->pictureBox1->Location = System::Drawing::Point(200, 50);
+			this->pictureBox1->Location = System::Drawing::Point(200, 100);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(700, 850);
+			this->pictureBox1->Size = System::Drawing::Size(650,780);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &DailyShow::pictureBox1_Click);
+			
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 23);
@@ -122,6 +124,7 @@ namespace Power6Rangers {
 				break;
 			default: break;
 			}
+			
 			// 
 			// pictureBox2
 			// 
@@ -129,12 +132,13 @@ namespace Power6Rangers {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->pictureBox2->Location = System::Drawing::Point(820, 50);
+			this->pictureBox2->Location = System::Drawing::Point(820, 100);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(600, 850);
+			this->pictureBox2->Size = System::Drawing::Size(600, 780);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
+
 			if (num == 1)
 				this->pictureBox2->Load("show_major0.png");
 			else if (num == 2)
@@ -179,6 +183,7 @@ namespace Power6Rangers {
 				this->pictureBox2->Load("show_major20.jpg");
 			else if (num == 22)
 				this->pictureBox2->Load("show_major21.jpg");
+
 			// 
 			// button1
 			// 
@@ -216,5 +221,7 @@ namespace Power6Rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 	}
-	};
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
