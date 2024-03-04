@@ -1,28 +1,7 @@
-﻿  Start.cpp
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(95,73): error C2039: 'pictureBox1_Click': is not a member of 'Power6Rangers::Start'
-  (compiling source file 'Start.cpp')
-  C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(17,19):
-  see declaration of 'Power6Rangers::Start'
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(95,73): error C2065: 'pictureBox1_Click': undeclared identifier
-  (compiling source file 'Start.cpp')
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(95,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Start.cpp')
-  C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(95,58):
-  pointer to member function expected
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(108,59): error C2039: 'Start_Load': is not a member of 'Power6Rangers::Start'
-  (compiling source file 'Start.cpp')
-  C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(17,19):
-  see declaration of 'Power6Rangers::Start'
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(108,59): error C2065: 'Start_Load': undeclared identifier
-  (compiling source file 'Start.cpp')
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(108,44): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
-  (compiling source file 'Start.cpp')
-  C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.h(108,44):
-  pointer to member function expected
-  
-C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Start.cpp(6,15): warning C4551: function call missing argument list
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  MenuPage.cpp
+  Start.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6Rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\x64\Debug\Power6Rangers.exe

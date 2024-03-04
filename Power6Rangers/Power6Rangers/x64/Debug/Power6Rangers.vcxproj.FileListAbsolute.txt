@@ -8,3 +8,16 @@ C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Ranger
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
 C:\Users\Acer  Notebook\source\repos\comprogproject20\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.LoveRand.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.LoveShow.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyRand.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MoneyShow1.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.Sound.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.WorkRand.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.WorkShow.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.DailyRand.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.DailyShow.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.MenuPage.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.Start.resources
+C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\Final1\Power6Rangers\Power6Rangers\x64\Debug\Power6Rangers.vcxproj.GenerateResource.cache

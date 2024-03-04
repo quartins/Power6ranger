@@ -71,6 +71,8 @@ namespace Power6Rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &DailyShow::pictureBox1_Click);
+			
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 23);
@@ -122,6 +124,7 @@ namespace Power6Rangers {
 				break;
 			default: break;
 			}
+			
 			// 
 			// pictureBox2
 			// 
@@ -135,6 +138,7 @@ namespace Power6Rangers {
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
+
 			if (num == 1)
 				this->pictureBox2->Load("show_major0.png");
 			else if (num == 2)
@@ -179,6 +183,7 @@ namespace Power6Rangers {
 				this->pictureBox2->Load("show_major20.jpg");
 			else if (num == 22)
 				this->pictureBox2->Load("show_major21.jpg");
+
 			// 
 			// button1
 			// 
@@ -216,5 +221,7 @@ namespace Power6Rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 	}
-	};
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
