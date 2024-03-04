@@ -1,8 +1,7 @@
-﻿  DailyRand.cpp
-  DailyShow.cpp
-  MenuPage.cpp
+﻿  MenuPage.cpp
   Start.cpp
+C:\Users\thipw\source\repos\Power6ranger\Power6Rangers\Start.cpp(6,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6Rangers.vcxproj -> C:\Users\thipw\Source\Repos\Power6ranger\Power6Rangers\x64\Debug\Power6Rangers.exe
+  Power6Rangers.vcxproj -> C:\Users\thipw\source\repos\Power6ranger\Power6Rangers\x64\Debug\Power6Rangers.exe
 D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
