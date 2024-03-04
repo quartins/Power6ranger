@@ -70,13 +70,13 @@ namespace Power6Rangers {
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
-			this->button1->Location = System::Drawing::Point(552, 112);
+			this->button1->Location = System::Drawing::Point(552, 114);
 			this->button1->Margin = System::Windows::Forms::Padding(2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(328, 128);
+			this->button1->Size = System::Drawing::Size(400, 128);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Daily";
 			this->button1->UseVisualStyleBackColor = true;
@@ -86,12 +86,12 @@ namespace Power6Rangers {
 			// 
 			this->button2->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.BackgroundImage")));
-			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.125F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->button2->Location = System::Drawing::Point(552, 256);
+			this->button2->Location = System::Drawing::Point(552, 258);
 			this->button2->Margin = System::Windows::Forms::Padding(2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(328, 128);
+			this->button2->Size = System::Drawing::Size(400, 128);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Love";
 			this->button2->UseVisualStyleBackColor = true;
@@ -101,12 +101,12 @@ namespace Power6Rangers {
 			// 
 			this->button3->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.BackgroundImage")));
-			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.125F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->button3->Location = System::Drawing::Point(552, 400);
+			this->button3->Location = System::Drawing::Point(552, 402);
 			this->button3->Margin = System::Windows::Forms::Padding(2);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(328, 128);
+			this->button3->Size = System::Drawing::Size(400, 128);
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"Money";
 			this->button3->UseVisualStyleBackColor = true;
@@ -118,10 +118,10 @@ namespace Power6Rangers {
 			this->button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.BackgroundImage")));
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->button4->Location = System::Drawing::Point(552, 544);
+			this->button4->Location = System::Drawing::Point(552, 546);
 			this->button4->Margin = System::Windows::Forms::Padding(2);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(328, 128);
+			this->button4->Size = System::Drawing::Size(400, 128);
 			this->button4->TabIndex = 3;
 			this->button4->Text = L"Work";
 			this->button4->UseVisualStyleBackColor = true;
@@ -130,9 +130,12 @@ namespace Power6Rangers {
 			// button5
 			// 
 			this->button5->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
-			this->button5->Location = System::Drawing::Point(1168, 728);
+			this->button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.BackgroundImage")));
+			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button5->Location = System::Drawing::Point(1104, 696);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(256, 96);
+			this->button5->Size = System::Drawing::Size(328, 128);
 			this->button5->TabIndex = 4;
 			this->button5->Text = L"Exit";
 			this->button5->UseVisualStyleBackColor = true;
@@ -144,7 +147,7 @@ namespace Power6Rangers {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1449, 845);
+			this->ClientSize = System::Drawing::Size(1449, 848);
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->button3);
