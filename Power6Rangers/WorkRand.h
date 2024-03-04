@@ -64,6 +64,7 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::White;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->ForeColor = System::Drawing::Color::Transparent;
 			this->button1->Location = System::Drawing::Point(411, 312);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(200, 74);
