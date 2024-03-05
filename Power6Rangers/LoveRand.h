@@ -68,11 +68,13 @@ namespace Power6Rangers {
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->button1->BackColor = System::Drawing::Color::LightPink;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(612, 315);
+			this->button1->Location = System::Drawing::Point(918, 492);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(250, 63);
+			this->button1->Size = System::Drawing::Size(375, 98);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Random";
 			this->button1->UseVisualStyleBackColor = false;
@@ -84,21 +86,24 @@ namespace Power6Rangers {
 			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(514, 155);
+			this->pictureBox2->Location = System::Drawing::Point(771, 242);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(465, 99);
+			this->pictureBox2->Size = System::Drawing::Size(698, 155);
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
 			// 
 			// LoveRand
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1365, 519);
+			this->ClientSize = System::Drawing::Size(2048, 811);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"LoveRand";
 			this->Text = L"LoveRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

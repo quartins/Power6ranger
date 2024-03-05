@@ -191,6 +191,7 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::Transparent;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 13.875F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->button1->Location = System::Drawing::Point(1300, 970);
@@ -209,6 +210,7 @@ namespace Power6Rangers {
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"DailyShow";
 			this->Text = L"DailyShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

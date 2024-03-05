@@ -102,6 +102,7 @@ namespace Power6Rangers {
 			this->ClientSize = System::Drawing::Size(1828, 984);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"Start";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &Start::Start_Load);
@@ -117,9 +118,9 @@ namespace Power6Rangers {
 	}
 	private: System::Void Start_Load(System::Object^ sender, System::EventArgs^ e) {
 		SoundPlayer^ sound = gcnew SoundPlayer;
-		sound->SoundLocation = "Test (2).wav";
+		sound->SoundLocation = "BGM_Spirited Away.wav";
 		sound->Load();
-		sound->Play();
+		sound->PlayLooping();
 	}
 };
 }

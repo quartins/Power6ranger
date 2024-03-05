@@ -64,6 +64,7 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::Transparent;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Location = System::Drawing::Point(652, 762);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(520, 136);
@@ -85,9 +86,6 @@ namespace Power6Rangers {
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
 			this->pictureBox1->Click += gcnew System::EventHandler(this, &DailyRand::pictureBox1_Click);
-			
-			
-			
 			// 
 			// DailyRand
 			// 
@@ -98,6 +96,7 @@ namespace Power6Rangers {
 			this->ClientSize = System::Drawing::Size(1832, 1055);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"DailyRand";
 			this->Text = L"DailyRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
