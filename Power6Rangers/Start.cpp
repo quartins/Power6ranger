@@ -1,9 +1,11 @@
 #include "Start.h"
 
-using namespace Power6Rangers;
-
-int main() {
-	Application::EnableVisualStyles;
+using namespace System;
+using namespace System::Windows::Forms;
+[STAThread]
+void main(array<String^>^ args) {
+	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew Start());
+	Power6Rangers::Start form;
+	Application::Run(% form);
 }

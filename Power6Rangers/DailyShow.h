@@ -35,7 +35,6 @@ namespace Power6Rangers {
 			}
 		}
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
-	protected:
 	private: System::Windows::Forms::PictureBox^ pictureBox2;
 	private: System::Windows::Forms::Button^ button1;
 
@@ -66,12 +65,14 @@ namespace Power6Rangers {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->pictureBox1->Location = System::Drawing::Point(32, 32);
+			this->pictureBox1->Location = System::Drawing::Point(200, 100);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(700, 900);
+			this->pictureBox1->Size = System::Drawing::Size(650,780);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &DailyShow::pictureBox1_Click);
+			
 			int num;
 			Random^ random = gcnew Random;
 			num = random->Next(1, 23);
@@ -123,6 +124,7 @@ namespace Power6Rangers {
 				break;
 			default: break;
 			}
+			
 			// 
 			// pictureBox2
 			// 
@@ -130,12 +132,13 @@ namespace Power6Rangers {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->pictureBox2->Location = System::Drawing::Point(776, 32);
+			this->pictureBox2->Location = System::Drawing::Point(820, 100);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(700, 900);
+			this->pictureBox2->Size = System::Drawing::Size(600, 780);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
+
 			if (num == 1)
 				this->pictureBox2->Load("show_major0.png");
 			else if (num == 2)
@@ -180,16 +183,22 @@ namespace Power6Rangers {
 				this->pictureBox2->Load("show_major20.jpg");
 			else if (num == 22)
 				this->pictureBox2->Load("show_major21.jpg");
+
 			// 
 			// button1
 			// 
 			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
-			this->button1->Location = System::Drawing::Point(1325, 931);
+			this->button1->BackColor = System::Drawing::Color::Transparent;
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 13.875F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(1300, 970);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(288, 104);
+			this->button1->Size = System::Drawing::Size(300, 70);
 			this->button1->TabIndex = 2;
-			this->button1->Text = L"button1";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyShow::Button1_Click);
 			// 
 			// DailyShow
@@ -201,6 +210,7 @@ namespace Power6Rangers {
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"DailyShow";
 			this->Text = L"DailyShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -213,5 +223,7 @@ namespace Power6Rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 	}
-	};
+	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

@@ -34,9 +34,10 @@ namespace Power6Rangers {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ button1;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::PictureBox^ pictureBox2;
+	private: System::Windows::Forms::Button^ button1;
 	protected:
 
 	private:
@@ -53,36 +54,26 @@ namespace Power6Rangers {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(WorkShow::typeid));
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
-			// button1
-			// 
-			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
-			this->button1->BackColor = System::Drawing::Color::White;
-			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
-			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->ForeColor = System::Drawing::Color::Transparent;
-			this->button1->Location = System::Drawing::Point(1107, 471);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(206, 59);
-			this->button1->TabIndex = 0;
-			this->button1->UseVisualStyleBackColor = false;
-			this->button1->Click += gcnew System::EventHandler(this, &WorkShow::button1_Click);
-			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(62, 38);
+			
+			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
+			this->pictureBox1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->pictureBox1->Location = System::Drawing::Point(350, 150);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(411, 433);
-			this->pictureBox1->TabIndex = 1;
+			this->pictureBox1->Size = System::Drawing::Size(553, 692);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			int num;
-			Random^ random = gcnew Random;
+			Random^ random = gcnew Random();
 			num = random->Next(1, 14);
 			switch (num)
 			{
@@ -114,26 +105,77 @@ namespace Power6Rangers {
 				break;
 			case 14:this->pictureBox1->Load("4king-wands.png");
 				break;
-			
+
 			default: break;
 			}
 			// 
 			// pictureBox2
 			// 
-			this->pictureBox2->Location = System::Drawing::Point(583, 34);
+			
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
+			this->pictureBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->pictureBox2->Location = System::Drawing::Point(990, 150);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(402, 437);
-			this->pictureBox2->TabIndex = 2;
+			this->pictureBox2->Size = System::Drawing::Size(553, 692);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
+			if (num == 1)
+				this->pictureBox2->Load("show_wands01.jpg");
+			else if (num == 2)
+				this->pictureBox2->Load("show_wands02.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_wands03.jpg");
+			else if (num == 4)
+				this->pictureBox2->Load("show_wands04.jpg");
+			else if (num == 5)
+				this->pictureBox2->Load("show_wands05.jpg");
+			else if (num == 6)
+				this->pictureBox2->Load("show_wands06.jpg");
+			else if (num == 7)
+				this->pictureBox2->Load("show_wands07.jpg");
+			else if (num == 8)
+				this->pictureBox2->Load("show_wands08.jpg");
+			else if (num == 9)
+				this->pictureBox2->Load("show_wands09.jpg");
+			else if (num == 10)
+				this->pictureBox2->Load("show_wands10.jpg");
+			else if (num == 11)
+				this->pictureBox2->Load("show_wands11.jpg");
+			else if (num == 12)
+				this->pictureBox2->Load("show_wands12.jpg");
+			else if (num == 13)
+				this->pictureBox2->Load("show_wands13.jpg");
+			else if (num == 14)
+				this->pictureBox2->Load("show_wands14.jpg");
+			// 
+			// button1
+			// 
+			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
+			this->button1->BackColor = System::Drawing::Color::White;
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button1->ForeColor = System::Drawing::Color::Transparent;
+			this->button1->Location = System::Drawing::Point(726, 367);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(206, 59);
+			this->button1->TabIndex = 2;
+			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &WorkShow::button1_Click);
 			// 
 			// WorkShow
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1364, 542);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(983, 438);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
+			this->DoubleBuffered = true;
 			this->Name = L"WorkShow";
 			this->Text = L"WorkShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -144,6 +186,7 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
 		
 	}
 	};

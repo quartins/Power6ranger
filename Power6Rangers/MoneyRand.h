@@ -1,5 +1,5 @@
 #pragma once
-#include"MoneyShow.h"
+#include"MoneyShow1.h"
 
 namespace Power6Rangers {
 
@@ -64,24 +64,27 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::Transparent;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Modern No. 20", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(646, 410);
+			this->button1->Location = System::Drawing::Point(969, 641);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(184, 72);
+			this->button1->Size = System::Drawing::Size(276, 112);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MoneyRand::button1_Click);
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(433, 59);
+			this->pictureBox1->Location = System::Drawing::Point(594, 145);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(598, 92);
+			this->pictureBox1->Size = System::Drawing::Size(916, 144);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -89,14 +92,16 @@ namespace Power6Rangers {
 			// 
 			// MoneyRand
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1414, 557);
+			this->ClientSize = System::Drawing::Size(2121, 870);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->DoubleBuffered = true;
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"MoneyRand";
 			this->Text = L"MoneyRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -107,7 +112,7 @@ namespace Power6Rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		MoneyShow^ ToMS = gcnew MoneyShow;
+		MoneyShow1^ ToMS = gcnew MoneyShow1;
 		ToMS->Show();
 		this->Close();
 	}

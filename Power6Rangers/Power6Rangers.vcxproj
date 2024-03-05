@@ -81,6 +81,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -90,6 +92,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+	  <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -124,7 +128,7 @@
     <ClCompile Include="LoveShow.cpp" />
     <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="MoneyRand.cpp" />
-    <ClCompile Include="MoneyShow.cpp" />
+    <ClCompile Include="MoneyShow1.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -148,7 +152,7 @@
     <ClInclude Include="MoneyRand.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MoneyShow.h">
+    <ClInclude Include="MoneyShow1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Start.h">
@@ -171,8 +175,11 @@
     <EmbeddedResource Include="MoneyRand.resx">
       <DependentUpon>MoneyRand.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MoneyShow.resx">
-      <DependentUpon>MoneyShow.h</DependentUpon>
+    <EmbeddedResource Include="MoneyShow1.resx">
+      <DependentUpon>MoneyShow1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sound.resx">
+      <DependentUpon>Sound.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkRand.resx">
       <DependentUpon>WorkRand.h</DependentUpon>
@@ -182,6 +189,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DailyRand.resx">
       <DependentUpon>DailyRand.h</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
@@ -194,6 +202,30 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\01-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\02-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\03-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\04-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\05-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\06-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\07-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\08-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\09-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\10-pentacles.png" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles01.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles02.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles03.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles04.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles05.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles06.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles07.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles08.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles09.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles10.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles11.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles12.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles13.jpg" />
+    <Image Include="..\..\..\..\Com Prog1\oldPro\ProjectPower6rangers\Money\show_pentacles14.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejbiwork.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibibgmenu.jpg" />
     <Image Include="..\..\comprogproject19neww\Power6Rangers\kiejibidaily.jpg" />
@@ -209,12 +241,44 @@
     <Image Include="08-wands.png" />
     <Image Include="09-wands.png" />
     <Image Include="10-wands.png" />
+    <Image Include="11-pentacles.png" />
+    <Image Include="12-pentacles.png" />
+    <Image Include="13-pentacles.png" />
+    <Image Include="14-pentacles.png" />
     <Image Include="1page-wands.png" />
     <Image Include="2knight-wands.png" />
     <Image Include="3queen-wands.png" />
     <Image Include="4king-wands.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\01-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\02-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\03-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\04-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\05-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\06-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\07-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\08-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\09-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\10-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\1page-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\2knight-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\3queen-cups.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\CUPS (ความรัก)\4king-cups.png" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveRand.jpg" />
     <Image Include="C:\Users\Asus TUF Gaming\Downloads\wallpaperLoveShow.jpg" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups01.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups02.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups03.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups04.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups05.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups06.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups07.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups08.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups09.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups10.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups11.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups12.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups13.png" />
+    <Image Include="C:\Users\Asus TUF Gaming\Downloads\คำทำนายความรัก\show_cups14.png" />
     <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\00-major.png" />
     <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\01-major.png" />
     <Image Include="C:\Users\thipw\source\repos\quartins\comprog_project\ProjectPower6rangers\02-major.png" />
