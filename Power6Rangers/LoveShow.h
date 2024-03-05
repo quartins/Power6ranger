@@ -64,6 +64,7 @@ namespace Power6Rangers {
 			// 
 			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
 			this->button1->BackColor = System::Drawing::Color::LightPink;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->Location = System::Drawing::Point(1251, 964);
@@ -171,6 +172,7 @@ namespace Power6Rangers {
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"LoveShow";
 			this->Text = L"LoveShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

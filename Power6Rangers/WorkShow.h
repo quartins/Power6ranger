@@ -155,6 +155,7 @@ namespace Power6Rangers {
 			this->button1->BackColor = System::Drawing::Color::White;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->ForeColor = System::Drawing::Color::Transparent;
 			this->button1->Location = System::Drawing::Point(726, 367);
 			this->button1->Name = L"button1";
@@ -173,6 +174,7 @@ namespace Power6Rangers {
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->DoubleBuffered = true;
 			this->Name = L"WorkShow";
 			this->Text = L"WorkShow";
